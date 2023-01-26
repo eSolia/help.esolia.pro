@@ -33,4 +33,6 @@ site.use(date());
 site.use(pagefind());
 site.use(source_maps());
 
+site.copy("static", ".")
+
 export default site;
