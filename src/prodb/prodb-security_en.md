@@ -1,6 +1,6 @@
 ---
 title: PROdb Security
-date: 2023-02-01T11:25:30+09:00
+date: 2023-02-01T16:25:30+09:00
 description: Various aspects of the trustworthy SaaS cloud database "PROdb"
 order: 200
 category: Service Details
@@ -32,9 +32,7 @@ The Top Level Tier-3 datacenter housing PROdb is operated by Steadfast Networks,
 
 In the event that clients would rather not be hosted in the USA, Foresoft also offers their platform in Microsoft Azure's West EU datacenter in the Netherlands. Whereas the Steadfast DC is co-location of physical servers, Azure is a cloud offering which meaning it is database hosting, data and file storage, on virtual servers. See Microsoft's pages regarding [Security](https://azure.microsoft.com/en-us/overview/security/) and [Compliance Certifications](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/). 
 
-!!!success Option
-A fee-based private cloud option is available on Azure, giving you access to virtual device logs and other information. 
-!!!
+**Option:** A fee-based private cloud option is available on Azure, giving you access to virtual device logs and other information. {.tip}
 
 ## Rock Solid Application Security
 PROdb is encrypting data over the wire via 256-bit (SHA2) TLS certificate, using TLS 1.2, 1.1 or 1.0 preferring the stronger variant by default. The database and all file attachments are encrypted using AES256. 

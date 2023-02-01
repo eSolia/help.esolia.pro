@@ -36,9 +36,7 @@ Each has different specific user impacts as follows.
 
 Both length and allowed characters policy changes will take effect _on the next account password expiration_.
 
-!!!success Note:
-The minimal password length can be customized to a longer length than the maximum in the UI, for example to 12 or 14 characters. Enterprise subscribers should ask us if they would like to customize this.   
-!!!
+**Note:** The minimal password length can be customized to a longer length than the maximum in the UI, for example to 12 or 14 characters. Enterprise subscribers should ask us if they would like to customize this. {.tip}
 
 ## Password Expiration
 
@@ -46,17 +44,13 @@ Any password expiration timeout policy change will take effect immediately. PROd
 
 The user will be prompted to change their password, if today's date is past the calculated expiration date.
 
-!!!success Note:
-A password change can be forced by finding the user in the _All Users_ list, and setting the "Must Change Password" flag in that user's settings. PROdb will request the password change on next sign-in.  
-!!!
+**Note:** A password change can be forced by finding the user in the _All Users_ list, and setting the "Must Change Password" flag in that user's settings. PROdb will request the password change on next sign-in. {.tip}
 
 ## Failed sign-ins
 
 A "Failed sign-ins" counter policy change will take effect on the next failed sign-in. The number of failed sign-ins in a row is counted, and if the number reaches the maximum, that account is locked. A successful sign-in or password reset clears the counter.
 
-!!!success Note:
-Locked user accounts can be unlocked from _All Users_.  
-!!!
+**Note:** Locked user accounts can be unlocked from _All Users_. {.tip}
 
 ## Session Timeout
 

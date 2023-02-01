@@ -1,6 +1,6 @@
 ---
 title: PROdb セキュリティ
-date: 2023-02-01T11:25:30+09:00
+date: 2023-02-01T16:25:30+09:00
 description: 信頼できるSaaSクラウド型データーベース「PROdb」を色んな面のセキュリティのご紹介です。
 order: 200
 category: サービス詳細
@@ -42,9 +42,8 @@ Steadfast 監査報告はこちら：
 -   [350 East Cermak Road](https://www.steadfast.net/managed-hosting/data-center-colocation/350-e-cermak-chicago-data-center)の DC になります
 -   Tier III DC で、電気、HVAC、ネットワーク接続、セキュリティの冗長性が 2N（必要なキャパの倍）
 
-!!!success 有料オプション
-有料「プライベートクラウド」オプションもございます。Azureに御社のPROdbを乗せて、仮想デバイスログやその他の情報が閲覧可能になります。 
-!!!
+**有料オプション:** 有料「プライベートクラウド」オプションもございます。Azureに御社のPROdbを乗せて、仮想デバイスログやその他の情報が閲覧可能になります。 {.tip}
+
 ## アプリ セキュリティも抜群
 
 PROdb は 256-ビット (SHA2) TLS サーティフィケイト、TLS1.0、1.1 および 1.2 を介してワイヤー上でデータを暗号化します。データベースと添付ファイルは AES256 にて暗号化されます。
