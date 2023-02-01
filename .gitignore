@@ -1,0 +1,4 @@
+_site
+_dist
+_cache
+deno.lock
