@@ -1,0 +1,53 @@
+layout: layouts/docs.njk
+main_menu: docs
+lang: [ja, en]
+i18n:
+    ja: 
+      lname: "日本語"
+      sitename: "イソリア ヘルプ"
+      creator: "株式会社イソリア"
+      toptitle: "イソリア ヘルプ ページ"
+      topsubtitle: "PROdbクラウド型DBやバルクメールに関連するトピックスをご覧頂けます。"
+      page_prev: "戻る"
+      page_next: "次へ"
+      search: "検索"
+      copyright: "© 株式会社イソリア"
+      page: "ページ"
+      empty: "結果はありません"
+      side_menu:
+        - title: PROdbクラウド型DB
+          id: prodb
+        - title: バルクメール
+          id: bulkemail
+    en: 
+      lname: "English"
+      sitename: "eSolia Help"
+      creator: "eSolia Inc."
+      toptitle: "eSolia Help Pages"
+      topsubtitle: "Learn more details about eSolia PROdb cloud database or bulk email error codes."
+      page_prev: "Previous"
+      page_next: "Next"
+      search: "Search"
+      copyright: "© eSolia Inc."
+      page: "Page"
+      empty: "No results"
+      side_menu:
+        - title: PROdb Cloud DB
+          id: prodb
+        - title: Bulk Email
+          id: bulkemail
+
+docs_menu:
+  - title: Overviewサイド
+    id: overview
+  - title: Configuration
+    id: configuration
+  - title: Getting started
+    id: getting-started
+  - title: Creating pages
+    id: creating-pages
+  - title: Core
+    id: core
+  - title: Advanced
+    id: advanced
+
