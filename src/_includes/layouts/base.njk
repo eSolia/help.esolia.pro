@@ -1,88 +1,82 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}" data-theme="light">
-  <script type="text/javascript">
-	const root = document.firstElementChild;
-	const mediaQuery = "(prefers-color-scheme: dark)";
-	const mediaMatch = window.matchMedia;
-	const currentMode = mediaMatch(mediaQuery).matches;
+	<script type="text/javascript">
+		const root = document.firstElementChild;
+		const mediaQuery = "(prefers-color-scheme: dark)";
+		const mediaMatch = window.matchMedia;
+		const currentMode = mediaMatch(mediaQuery).matches;
 
-	const storeTheme = (targetTheme) => {
-	  if ("boolean" === typeof targetTheme) {
-		targetTheme = targetTheme ? "dark" : "light";
-	  }
-	  root.setAttribute("data-theme", targetTheme);
-	  localStorage.setItem("data-theme", targetTheme);
-	};
+		const storeTheme = (targetTheme) => {
+		  if ("boolean" === typeof targetTheme) {
+			targetTheme = targetTheme ? "dark" : "light";
+		  }
+		  root.setAttribute("data-theme", targetTheme);
+		  localStorage.setItem("data-theme", targetTheme);
+		};
 
-	const storedTheme = ("data-theme" in localStorage)
-	  ? localStorage.getItem("data-theme")
-	  : currentMode;
+		const storedTheme = ("data-theme" in localStorage)
+		  ? localStorage.getItem("data-theme")
+		  : currentMode;
 
-	storedTheme && storeTheme(storedTheme);
-  </script>
-  <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }} - Lume</title>
+		storedTheme && storeTheme(storedTheme);
+	</script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ title }} - eSolia Help</title>
 
-	<meta name="supported-color-schemes" content="light dark">
+		<meta name="supported-color-schemes" content="light dark" />
 
-	<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
-	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+		<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
+		<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
 
-	<link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="/fonts/epilogue.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	
-	<link rel="preload" href="/fonts/m-plus-2-v5-latin-ext_latin_japanese-100.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="/fonts/m-plus-2-v5-latin-ext_latin_japanese-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="/fonts/m-plus-2-v5-latin-ext_latin_japanese-800.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/epilogue.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
-	<link rel="stylesheet" href="/styles/critical.css" inline>
-	<link rel="stylesheet" href="/styles/main.css">
-	<link rel="canonical" href="{{ url | url(true) }}">
-	
-	{% if page_css %}
-	  <link rel="stylesheet" href="/styles/pages/{{ page_css }}">
-	{% endif %}
+		<link rel="preload" href="/fonts/m-plus-2-v5-latin-ext_latin_japanese-100.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/m-plus-2-v5-latin-ext_latin_japanese-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/m-plus-2-v5-latin-ext_latin_japanese-800.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
-	<script src="/main.js" type="module"></script>
+		<link rel="stylesheet" href="/styles/critical.css" inline />
+		<link rel="stylesheet" href="/styles/main.css" />
+		<link rel="canonical" href="{{ url | url(true) }}" />
 
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="{{ title }}">
-	<meta property="og:url" content="{{ url | url(true) }}">
-	<meta property="og:description" content="{{ description | md(true) | striptags }}">
-	<meta property="og:image" content="{{ "/avatar.jpg" | url(true) }}">
+		{% if page_css %}
+		<link rel="stylesheet" href="/styles/pages/{{ page_css }}" />
+		{% endif %}
 
-	<meta name="twitter:title" content="{{ title }}">
-	<meta name="twitter:description" content="{{ description | md(true) | striptags }}">
-	<meta name="twitter:site" content="@misteroom">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="{{ "/avatar.jpg" | url(true) }}">
+		<script src="/main.js" type="module"></script>
 
-	<meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="#141b1f" media="(prefers-color-scheme: dark)">
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:url" content="{{ url | url(true) }}" />
+		<meta property="og:description" content="{{ description | md(true) | striptags }}" />
+		<meta property="og:image" content="{{ "/avatar.jpg" | url(true) }}">
 
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
+		<meta name="twitter:title" content="{{ title }}" />
+		<meta name="twitter:description" content="{{ description | md(true) | striptags }}" />
+		<meta name="twitter:site" content="@misteroom" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:image" content="{{ "/avatar.jpg" | url(true) }}">
 
-	<link
-	  rel="stylesheet"
-	  href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.1/dist/style.css"
-	  integrity="sha256-brWyd+lKlaU/B5Lhqd/FUXyZQu4rVmbFRsP2E8S2CLw="
-	  crossorigin="anonymous">
-  </head>
-  <body>
-	{% include "templates/navbar.njk" %}
-	<div>
-	  {{ content | safe }}
-	</div>
-	{% include "templates/footer.njk" %}
+		<meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#141b1f" media="(prefers-color-scheme: dark)" />
 
-	
-  </body>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/manifest.json" />
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.1/dist/style.css" integrity="sha256-brWyd+lKlaU/B5Lhqd/FUXyZQu4rVmbFRsP2E8S2CLw=" crossorigin="anonymous" />
+	</head>
+	<body>
+		{% include "templates/navbar.njk" %}
+		<div>
+			{{ content | safe }}
+		</div>
+		{% include "templates/footer.njk" %}
+	</body>
 </html>
