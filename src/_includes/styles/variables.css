@@ -9,10 +9,10 @@
   --text-display-height: 0.95;
   --text-display: 900 var(--text-display-size)/var(--text-display-height) var(--font-display);
   --text-display-spacing: -0.045em;
-  --text-heading-size: clamp(20px, 8vw, 50px);
+  --text-heading-size: clamp(18px, 8vw, 50px);
   --text-heading: 900 var(--text-heading-size)/1.1 var(--font-display);
   --text-heading-spacing: -0.03em;
-  --text-title-size: clamp(20px, 6vw, 30px);
+  --text-title-size: clamp(17px, 6vw, 25px);
   --text-title: 800 var(--text-title-size)/1.2 var(--font-display);
   --text-title-spacing: -0.03em;
   --text-body-size: clamp(16px, 4vw, 20px);
