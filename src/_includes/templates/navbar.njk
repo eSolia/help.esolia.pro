@@ -1,0 +1,32 @@
+<nav class="navbar-container">
+  <div class="navbar">
+    <a href="/" class="navbar-logo" aria-label="Return home">
+      <img src="/logo/eSolia_Square_Chicklet_Logo_YellowBlue.svg" width="70px" alt="eSolia chicklet logo in SVG format"/>
+      <span>
+          {{ i18n[lang].sitename }}
+      </span>
+    </a>
+
+    <ul class="navbar-menu">
+      <li>
+        <a href="/" {% if main_menu == "docs" %}class="is-selected"{% endif %}>
+          SOME LINK
+        </a>
+      </li>
+      {% for pageLang, page in alternates %}
+        {% if pageLang !== lang %}
+        <li style="background:honeydew;" class="" >
+          <a href="{{ page.data.url }}">
+            {% if pageLang == "ja" %}{{ i18n[pageLang].lname }}
+            {% elif pageLang == "en" %}{{ i18n[pageLang].lname }}
+            {% else %}{{ pageLang | upper }}{% endif %}
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    
+    
+  </div>
+</nav>
+
