@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'MPlus2';
-  font-weight: 800;
+  font-weight: 800 900;
   font-display: swap;
   font-style: normal;
   src: url("/fonts/m-plus-2-v5-latin-ext_latin_japanese-800.woff2") format("woff2");
