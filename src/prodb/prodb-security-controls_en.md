@@ -6,6 +6,7 @@ order: 400
 category: Service Details
 lang: en
 url: /en/prodb/prodb-security-controls/
+templateEngine: [md, njk]
 tags:
   - PROdb
   - Password
@@ -74,3 +75,4 @@ Therefore, when changing policy from "Never" to some setting such as "8 hours", 
 
 <img src="/img/figure-prodb-security-controls-screen.png" width="100%" alt="Figure: PROdb Security Controls Screen">
 
+{{ comp.button({ text: "Login" }) | safe }}
