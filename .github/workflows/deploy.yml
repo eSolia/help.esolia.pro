@@ -1,29 +1,41 @@
-name: Deploy
-on: [push]
-
+name: Deploy to Deno Deploy
+on:
+  # Triggers the workflow on push or pull request events for main or dev
+  # Deno Deploy project is linked to one branch, usually main, but will
+  # generate a non-production deploy URL for branches other than main
+  push:
+    branches: [ main, dev ] 
+  pull_request:
+    branches: [ main, dev ]
+	
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  schedule:
+	# At 17:10 GMT every day, middle of the night in Japan.
+    - cron: '10 17 * * *'
 jobs:
   deploy:
-	name: Deploy
-	runs-on: ubuntu-latest
-	permissions:
-	  id-token: write # Needed for auth with Deno Deploy
-	  contents: read # Needed to clone the repository
+    name: Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Needed for auth with Deno Deploy
+      contents: read # Needed to clone the repository
 
-	steps:
-	  - name: Clone repository
-		uses: actions/checkout@v3
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
 
-	  - name: Setup Deno environment
-		uses: denoland/setup-deno@v1
-		with:
-		  deno-version: v1.x
+      - name: Setup Deno environment
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
 
-	  - name: Build site
-		run: deno task build
+      - name: Build site
+        run: deno task build
 
-	  - name: Upload to Deno Deploy
-		uses: denoland/deployctl@v1
-		with:
-		  project: help-esolia-pro
-		  entrypoint: serve.ts
-		  root: ./_dist
+      - name: Upload to Deno Deploy
+        uses: denoland/deployctl@v1
+        with:
+          project: help-esolia-pro
+          entrypoint: serve.ts
+          root: ./_dist
