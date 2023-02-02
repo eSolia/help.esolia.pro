@@ -19,7 +19,7 @@ server.use(csp({
   "X-XSS-Protection": true,
   "X-Permitted-Cross-Domain-Policies": true,
   "X-Powered-By": false,
-});
+}),
 
 server.start();
 
