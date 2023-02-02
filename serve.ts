@@ -9,7 +9,7 @@ const server = new Server({
 // Use the middleware and pass your preferred options:
 server.use(csp({
   "Strict-Transport-Security": {
-	maxAge: DEFAULT_MAX_AGE,
+	maxAge: 63072000,
 	includeSubDomains: true,
 	preload: true,
   },
