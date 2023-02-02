@@ -4,6 +4,7 @@ date: 2023-02-01T11:25:30+09:00
 description: eSolia help pages for details on topics like PROdb or bulk email. 
 order: 1
 lang: en
+series: en-home
 url: /en/
 hideheader: true
 ---

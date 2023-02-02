@@ -4,6 +4,7 @@ date: 2023-02-01T11:25:30+09:00
 description: PROdbやバルクメールのトピックに関連するイソリアのヘルプページ。
 order: 1
 lang: ja
+series: ja-home
 hideheader: true
 ---
 
