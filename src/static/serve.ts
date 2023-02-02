@@ -1,4 +1,4 @@
-import Server from "../../lume/core/server.ts";
+import Server from "https:/deno.land/x/lume/core/server.ts";
 import csp from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/csp/mod.ts";
 
 const server = new Server({
