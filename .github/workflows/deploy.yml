@@ -37,11 +37,11 @@ jobs:
            echo "====CHECK CONTENT==="
            pwd
            tree
-           tree /home/runner/work/
+           tree /home/runner/work/help.esolia.pro
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: help-esolia-pro
-          import-map: "./import_map.json"
+          import-map: "/home/runner/work/help.esolia.pro/help.esolia.pro/import_map.json"
           entrypoint: serve.ts
           root: ./_dist
