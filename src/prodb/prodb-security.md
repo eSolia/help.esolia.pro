@@ -5,6 +5,7 @@ description: 信頼できるSaaSクラウド型データーベース「PROdb」�
 order: 200
 category: サービス詳細
 lang: ja
+series: ja-prodb
 url: /prodb/prodb-security/
 tags:
   - PROdb

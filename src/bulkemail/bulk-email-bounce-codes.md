@@ -5,6 +5,7 @@ description: バルクメールシステムで利用しているエラーコー�
 order: 100
 category: サービス詳細
 lang: ja
+series: ja-bulkemail
 url: /bulkemail/bulk-email-bounce-codes/
 tags:
   - バルクメール

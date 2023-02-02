@@ -5,6 +5,7 @@ description: Various aspects of the trustworthy SaaS cloud database "PROdb"
 order: 200
 category: Service Details
 lang: en
+series: en-prodb
 url: /en/prodb/prodb-security/
 tags:
   - PROdb

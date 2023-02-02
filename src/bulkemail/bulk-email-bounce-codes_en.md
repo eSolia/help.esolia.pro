@@ -5,6 +5,7 @@ description: Error Codes from Bulk Email Systems
 order: 100
 category: Service Details
 lang: en
+series: en-bulkemail
 url: /en/bulkemail/bulk-email-bounce-codes/
 tags:
   - Bulk Email

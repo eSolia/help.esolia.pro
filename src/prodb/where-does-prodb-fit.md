@@ -5,6 +5,7 @@ description: 「PROdb」と言う一つのイソリア ブランドの意味・�
 order: 100
 category: サービス詳細
 lang: ja
+series: ja-prodb
 url: /prodb/where-does-prodb-fit/
 tags:
   - PROdb

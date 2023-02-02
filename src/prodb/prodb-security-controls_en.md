@@ -2,11 +2,12 @@
 title: PROdb Security Controls
 date: 2023-02-01T11:25:30+09:00
 description: Setting password, timeout and expiration policies.
-order: 400
+order: 350
 category: Service Details
 lang: en
+series: en-prodb
 url: /en/prodb/prodb-security-controls/
-templateEngine: [md, njk]
+templateEngine: [njk, md]
 tags:
   - PROdb
   - Password
@@ -75,4 +76,4 @@ Therefore, when changing policy from "Never" to some setting such as "8 hours", 
 
 <img src="/img/figure-prodb-security-controls-screen.png" width="100%" alt="Figure: PROdb Security Controls Screen">
 
-{{ comp.button({ text: "Login" }) | safe }}
+

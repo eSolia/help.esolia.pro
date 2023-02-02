@@ -5,6 +5,7 @@ description: Introducing PROdb's modern and secure application architecture
 order: 300
 category: Service Details
 lang: en
+series: en-prodb
 url: /en/prodb/prodb-application-architecture/
 tags:
   - PROdb

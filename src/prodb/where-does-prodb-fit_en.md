@@ -5,6 +5,7 @@ description: What does eSolia brand "PROdb" stand for and what is it?
 order: 100
 category: Service Details
 lang: en
+series: en-prodb
 url: /en/prodb/where-does-prodb-fit/
 tags:
   - PROdb

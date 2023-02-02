@@ -5,6 +5,7 @@ description: PROdbの、モダン且つセキュリティ重視しているア�
 order: 300
 category: サービス詳細
 lang: ja
+series: ja-prodb
 url: /prodb/prodb-application-architecture/
 tags:
   - PROdb
