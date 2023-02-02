@@ -87,7 +87,10 @@ site
 		  extended: true, // Set true for Chinese and Japanese support.
 		},
 	  }))
-  .use(sourceMaps())
+  .use(sourceMaps({
+		inline: true,
+		sourceContent: false,
+	  }))
   .use(sitemap())
   .scopedUpdates(
 	  (path) => path.endsWith(".png") || path.endsWith(".jpg"),
