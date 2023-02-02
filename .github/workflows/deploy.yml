@@ -7,7 +7,7 @@ on:
     branches: [ main, dev ] 
   pull_request:
     branches: [ main, dev ]
-	
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   schedule:
@@ -20,7 +20,6 @@ jobs:
     permissions:
       id-token: write # Needed for auth with Deno Deploy
       contents: read # Needed to clone the repository
-
     steps:
       - name: Clone repository
         uses: actions/checkout@v3
