@@ -21,6 +21,6 @@ server.use(csp({
   "X-Powered-By": false,
 }),
 
-server.start();
+server.start(),
 
-console.log("Listening on http://localhost:8000");
+console.log("Listening on http://localhost:8000")
