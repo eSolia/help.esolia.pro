@@ -32,6 +32,10 @@ jobs:
       - name: Build site
         run: deno task build
 
+      - name: Check folder contents
+        run: |
+           echo "====CHECK CONTENT==="
+           tree
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
