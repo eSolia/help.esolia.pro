@@ -23,4 +23,4 @@ server.use(csp({
 
 server.start(),
 
-console.log("Listening on http://localhost:8000")
+console.log("Listening on http://localhost:8000");
