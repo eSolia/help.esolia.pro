@@ -14,7 +14,7 @@ import metas from "lume/plugins/metas.ts";
 import attributes from "lume/plugins/attributes.ts";
 import date from "lume/plugins/date.ts";
 import pagefind from "lume/plugins/pagefind.ts";
-import minifyHTML from "lume/plugins/minify_html.ts";
+// import minifyHTML from "lume/plugins/minify_html.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.1.0/toc/mod.ts";
@@ -140,6 +140,6 @@ site
 		(block as unknown as HTMLElement).prepend(menu as unknown as Node);
 	  });
 	})
-  .use(minifyHTML())
+  //.use(minifyHTML())
 
 export default site;
