@@ -36,6 +36,7 @@ jobs:
         run: |
            echo "====CHECK CONTENT==="
            tree
+           tree /home/runner/work/help.esolia.pro
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
