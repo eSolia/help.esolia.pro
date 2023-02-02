@@ -2,6 +2,8 @@ layout: layouts/docs.njk
 main_menu: docs
 lang: [ja, en]
 i18n:
+    foo.ja: "バー"
+    foo.en: "Bar"
     ja: 
       lname: "日本語"
       sitename: "イソリア ヘルプ"
