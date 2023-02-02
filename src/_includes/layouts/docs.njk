@@ -5,7 +5,6 @@ page_css: docs.css
 
 <div class="doc">
   {% include "templates/doc-navbar.njk" %}
-  
   <main class="doc-content">
   {% if url == "/" or url == "/en/" %}
   <div class="doc-hero-image">
@@ -25,32 +24,32 @@ page_css: docs.css
 
       {% include "templates/toc.njk" %}
     </header>
-    {% endif %}
+  {% endif %}
     <div class="doc-body">
       {{ content | safe }}
     </div>
 
     <footer class="doc-footer">
       <ul class="doc-pagination">
-        {%- set previousPost = search.previousPage(url, "url^=/docs/", "section_order order title") %}
-        {%- if previousPost %}
-        <li class="is-prev">
-          <a href="{{ previousPost.data.url }}" rel="prev">
-            ← Previous 
-            <strong>{{ previousPost.data.title }}</strong>
-          </a>
-        </li>
-        {% endif %}
-
-        {%- set nextPost = search.nextPage(url, "url^=/docs/", "section_order order title") %}
-        {%- if nextPost %}
-        <li class="is-next">
-          <a href="{{ nextPost.data.url }}" rel="next">
-            Next → 
-            <strong>{{ nextPost.data.title }}</strong>
-          </a>
-        </li>
-        {% endif %}
+          {%- set previousPost = search.previousPage(url, "lang="+[lang], "series="+[series], "order=asc") %}
+          {%- if previousPost %}
+          <li class="is-prev">
+            <a href="{{ previousPost.data.url }}" rel="prev">
+              ← Previous 
+              <strong>{{ previousPost.data.title }}</strong>
+            </a>
+          </li>
+          {% endif %}
+    
+          {%- set nextPost = search.nextPage(url, "lang="+[lang], "series="+[series], "order=asc") %}
+          {%- if nextPost %}
+          <li class="is-next">
+            <a href="{{ nextPost.data.url }}" rel="next">
+              Next → 
+              <strong>{{ nextPost.data.title }}</strong>
+            </a>
+          </li>
+          {% endif %}
       </ul>
     </footer>
   </main>
