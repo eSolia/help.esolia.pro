@@ -12,12 +12,12 @@ page_css: docs.css
       <h1>{{ i18n[lang].toptitle }}</h1>
       <p>{{ i18n[lang].topsubtitle }}</p>
       <span class="doc-hero-photo-source-text">Photo by <a href="https://unsplash.com/fr/@lmtrochezz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lina Trochez</a> on <a href="https://unsplash.com/photos/ktPKyUs3Qjs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
-        
+
     </div>
   </div>
   {% endif %}
   <br><div class="navbar-search" id="search"></div><br>
-  {% if hideheader !== true %} 
+  {% if hideheader !== true %}
     <header class="doc-header">
       <h1>{{ title }}</h1>
       {{ description | md | safe }}
@@ -31,21 +31,21 @@ page_css: docs.css
 
     <footer class="doc-footer">
       <ul class="doc-pagination">
-          {%- set previousPost = search.previousPage(url, "lang="+[lang], "series="+[series], "order=asc") %}
+          {%- set previousPost = search.previousPage(url, "lang=" + lang + " series=" + series, "order=asc") %}
           {%- if previousPost %}
           <li class="is-prev">
             <a href="{{ previousPost.data.url }}" rel="prev">
-              ← Previous 
+              ← Previous
               <strong>{{ previousPost.data.title }}</strong>
             </a>
           </li>
           {% endif %}
-    
-          {%- set nextPost = search.nextPage(url, "lang="+[lang], "series="+[series], "order=asc") %}
+
+          {%- set nextPost = search.nextPage(url, "lang=" + lang + " series=" + series, "order=asc") %}
           {%- if nextPost %}
           <li class="is-next">
             <a href="{{ nextPost.data.url }}" rel="next">
-              Next → 
+              Next →
               <strong>{{ nextPost.data.title }}</strong>
             </a>
           </li>
