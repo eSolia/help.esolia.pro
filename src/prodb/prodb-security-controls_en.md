@@ -2,7 +2,7 @@
 title: PROdb Security Controls
 date: 2023-02-01T11:25:30+09:00
 description: Setting password, timeout and expiration policies.
-order: 350
+order: 40
 category: Service Details
 lang: en
 series: en-prodb

@@ -2,7 +2,7 @@
 title: Application Architecture
 date: 2023-02-01T11:25:30+09:00
 description: Introducing PROdb's modern and secure application architecture
-order: 300
+order: 30
 category: Service Details
 lang: en
 series: en-prodb

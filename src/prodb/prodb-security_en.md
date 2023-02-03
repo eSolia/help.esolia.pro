@@ -2,7 +2,7 @@
 title: PROdb Security
 date: 2023-02-01T16:25:30+09:00
 description: Various aspects of the trustworthy SaaS cloud database "PROdb"
-order: 200
+order: 20
 category: Service Details
 lang: en
 series: en-prodb

@@ -2,7 +2,7 @@
 title: What's PROdb?
 date: 2023-02-01T16:25:30+09:00
 description: What does eSolia brand "PROdb" stand for and what is it?
-order: 100
+order: 10
 category: Service Details
 lang: en
 series: en-prodb
