@@ -1,11 +1,12 @@
 layout: layouts/error.njk
 title: "404: Page Not Found"
 series: utility
+lang: en
 description: |
   Sorry, the page you are looking for could not be found.
 
 content:
   title: "<span>Error 404:</span><br />Page Not Found"
-  description: Sorry, but the page you are looking for could not be found. Try searching, or return home. 
+  description: Sorry, but the page you are looking for could not be found. Search below for English pages, or return home. <br>(日本語ページの検索は[日本語トップ](/)から。) 
   button:
     title: Return Home

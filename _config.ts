@@ -29,7 +29,7 @@ const site = lume(
 	{
 	location: new URL("https://help.esolia.pro"),
 	server: {
-		page404: "/en/404/"
+		page404: "/404/"
 	},
 	src: "./src",
 	dest: "./_dist"
