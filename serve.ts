@@ -1,6 +1,6 @@
 import Server from "https:/deno.land/x/lume/core/server.ts";
 import expires from "https:/deno.land/x/lume/middlewares/expires.ts";
-import notfound from "https:/deno.land/x/lume/middlewares/not_found.ts";
+import notFound from "https:/deno.land/x/lume/middlewares/not_found.ts";
 import www from "https://deno.land/x/lume/middlewares/www.ts"
 
 const server = new Server({
@@ -9,7 +9,10 @@ const server = new Server({
 });
 
 server.use(expires());
-server.use(notfound());
+server.use(notFound({
+    root: `${Deno.cwd()}/_dist`,
+    page404: "/404.html",
+  }));
 server.use(www({
   add: false, // false to remove, true to add it.
 }));
