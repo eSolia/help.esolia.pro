@@ -11,7 +11,7 @@ const server = new Server({
 server.use(expires());
 server.use(notFound({
     root: `${Deno.cwd()}/_dist`,
-    page404: "/404.html",
+    page404: "/en/404/",
   }));
 server.use(www({
   add: false, // false to remove, true to add it.

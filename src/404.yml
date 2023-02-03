@@ -5,7 +5,7 @@ description: |
   Sorry, the page you are looking for could not be found.
 
 content:
-  title: "Error 404:<br /><span>Page Not</span> Found"
-  description: Sorry, the page you are looking for could not be found.
+  title: "<span>Error 404:</span><br />Page Not Found"
+  description: Sorry, but the page you are looking for could not be found.
   button:
     title: Return Home

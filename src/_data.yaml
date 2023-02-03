@@ -4,7 +4,11 @@ lang: [ja, en]
 i18n:
     foo.ja: "バー"
     foo.en: "Bar"
-    ja: 
+    pagenotfound.ja: "そのページは無い"
+    pagenotfound.en: "Page Not Found"
+    pagenotfoundsorry.ja: "残念ながら、お探しのページは見つかりません。"
+    pagenotfoundsorry.en: "We are sorry, but the page you are looking for cannot be found."
+    ja:
       lname: "日本語"
       sitename: "イソリア ヘルプ"
       creator: "株式会社イソリア"
@@ -21,7 +25,7 @@ i18n:
           id: prodb
         - title: バルクメール
           id: bulkemail
-    en: 
+    en:
       lname: "English"
       sitename: "eSolia Help"
       creator: "eSolia Inc."
