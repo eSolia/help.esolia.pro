@@ -1,0 +1,29 @@
+.langswitch{
+    color: var(--color-langswitch-foreground);
+    background-color: var(--color-langswitch);
+    background-blend-mode: var(--background-blend-mode);
+    justify-content: center;
+    padding: 0;
+    &:hover {
+        color: var(--color-hover, currentColor);
+        background: var(--color-background-hover, none);
+      }
+}
+
+:root[data-theme="light"] .langswitch {
+  --color-langswitch: var(--cyan-2);
+  --color-langswitch-foreground: var(--cyan-11);
+  --color-langswitch-1: var(--cyan-4);
+  --color-hover: var(--cyan-3);
+  --color-background-hover: var(--cyan-4);
+  --background-blend-mode: difference;
+}
+
+:root[data-theme="dark"] .langswitch {
+  --color-langswitch: var(--cyan-11);
+  --color-langswitch-foreground: var(--cyan-5);
+  --color-langswitch-1: var(--cyan-12);
+  --color-hover: var(--cyan-9);
+  --color-background-hover: var(--cyan-10);
+  --background-blend-mode: screen;
+}

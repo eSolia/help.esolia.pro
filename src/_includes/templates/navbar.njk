@@ -15,7 +15,7 @@
       </li>
       {% for pageLang, page in alternates %}
         {% if pageLang !== lang %}
-        <li style="background:honeydew;" class="" >
+        <li class="langswitch" >
           <a href="{{ page.data.url }}">
             {% if pageLang == "ja" %}{{ i18n[pageLang].lname }}
             {% elif pageLang == "en" %}{{ i18n[pageLang].lname }}
