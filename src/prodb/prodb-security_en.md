@@ -1,6 +1,6 @@
 ---
 title: PROdb Security
-date: 2023-02-01T16:25:30+09:00
+date: Git Last Modified
 description: Various aspects of the trustworthy SaaS cloud database "PROdb"
 order: 20
 category: Service Details

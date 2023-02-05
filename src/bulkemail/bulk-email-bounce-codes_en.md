@@ -1,6 +1,6 @@
 ---
 title: Bulk Email Error Codes
-date: 2023-02-01T11:25:30+09:00
+date: Git Last Modified
 description: Error Codes from Bulk Email Systems
 order: 100
 category: Service Details

@@ -1,6 +1,6 @@
 ---
 title: Application Architecture
-date: 2023-02-01T11:25:30+09:00
+date: Git Last Modified
 description: Introducing PROdb's modern and secure application architecture
 order: 30
 category: Service Details

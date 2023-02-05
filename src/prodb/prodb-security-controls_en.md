@@ -1,6 +1,6 @@
 ---
 title: PROdb Security Controls
-date: 2023-02-01T11:25:30+09:00
+date: Git Last Modified
 description: Setting password, timeout and expiration policies.
 order: 40
 category: Service Details

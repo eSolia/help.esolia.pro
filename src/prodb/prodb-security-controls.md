@@ -1,6 +1,6 @@
 ---
 title: PROdb セキュリティ制御変更
-date: 2023-02-01T11:25:30+09:00
+date: Git Last Modified
 description: パスワード、タイムアウト、セッション期限など規定設定
 order: 400
 category: サービス詳細

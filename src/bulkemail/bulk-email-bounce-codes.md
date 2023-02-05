@@ -1,6 +1,6 @@
 ---
 title: バルクメールのエラーコード
-date: 2023-02-01T11:25:30+09:00
+date: Git Last Modified
 description: バルクメールシステムで利用しているエラーコード
 order: 100
 category: サービス詳細

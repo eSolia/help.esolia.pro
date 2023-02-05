@@ -1,6 +1,6 @@
 ---
 title: アプリ アーキテクチャー
-date: 2023-02-01T11:25:30+09:00
+date: Git Last Modified
 description: PROdbの、モダン且つセキュリティ重視しているアプリケーションアーキテクチャーをご紹介します。
 order: 300
 category: サービス詳細
