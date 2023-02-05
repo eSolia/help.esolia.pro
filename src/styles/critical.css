@@ -1,3 +1,5 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
 @import "styles/fonts.css";
 @import "styles/variables.css";
-@import "styles/reset.css";
+/* @import "styles/reset.css"; */
