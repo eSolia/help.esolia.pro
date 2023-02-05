@@ -95,6 +95,7 @@
   --color-background-1: var(--stone-1);
   --color-background-2: var(--stone-2);
   --color-background-3: var(--stone-3);
+  --color-light-title: var(--stone-2);
 }
 
 /* Theme dark mode */
@@ -109,6 +110,7 @@
   --color-background-1: var(--stone-10);
   --color-background-2: var(--stone-8);
   --color-background-3: var(--stone-4);
+  --color-light-title: var(--stone-2);
 
   /* Overwrite @docsearch modal dark colors */
   --docsearch-modal-background: var(--color-background);
