@@ -1,9 +1,10 @@
 metas:
-    site: eSolia Help Site
+    title: =title
+    description: =description
     twitter: "@esolia_inc"
-    icon: /logo/eSolia_Square_Chicklet_Logo_YellowBlue.svg
     image: /logo/eSolia-Logo-Flat-2015.png
-    lang: en
+    color: "#141b1f"
+    icon: /img/apple-touch-icon.png
     generator: true
 layout: layouts/docs.njk
 main_menu: docs
