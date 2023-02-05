@@ -1,3 +1,10 @@
+metas:
+    site: eSolia Help Site
+    twitter: "@esolia_inc"
+    icon: /logo/eSolia_Square_Chicklet_Logo_YellowBlue.svg
+    image: /logo/eSolia-Logo-Flat-2015.png
+    lang: en
+    generator: true
 layout: layouts/docs.njk
 main_menu: docs
 lang: [ja, en]
