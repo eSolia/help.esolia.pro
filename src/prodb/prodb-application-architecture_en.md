@@ -4,6 +4,8 @@ date: Git Last Modified
 description: Introducing PROdb's modern and secure application architecture
 order: 30
 category: Service Details
+metas:
+  image: /logo/eSolia-Logo-Flat-2015.png
 lang: en
 series: en-prodb
 url: /en/prodb/prodb-application-architecture/
