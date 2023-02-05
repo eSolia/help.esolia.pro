@@ -1,6 +1,6 @@
 ---
 title: PROdbとは？
-date: 2023-02-01T16:25:30+09:00
+date: Git Last Modified
 description: 「PROdb」と言う一つのイソリア ブランドの意味・位置づけ
 order: 100
 category: サービス詳細
