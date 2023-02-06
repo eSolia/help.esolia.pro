@@ -27,30 +27,7 @@
 
   /* Colors */
   /* Tokens */
-  --color-red-400: hsl(0, 50%, 40%);
-  --color-red-500: hsl(0, 50%, 50%);
-  --color-red-600: hsl(0, 70%, 60%);
-  --color-orange-400: hsl(40,100%,27%);
-  --color-orange-500: hsl(40,100%,37%);
-  --color-orange-600: hsl(40,100%,47%);
-  --color-white: hsl(200deg, 20%, 100%);
-  --color-white-alpha: hsla(200, 20%, 100%, 0.9);
-  --color-black-970: hsl(200, 20%, 97%);
-  --color-black-930: hsl(200, 20%, 93%);
-  --color-black-860: hsl(200, 20%, 86%);
-  --color-black-650: hsl(200, 20%, 65%);
-  --color-black-350: hsl(200, 20%, 35%);
-  --color-black-240: hsl(200, 20%, 24%);
-  --color-black-180: hsl(200, 20%, 18%);
-  --color-black-140: hsl(200, 20%, 14%);
-  --color-black-100: hsl(200, 20%, 10%);
-  --color-black-100-alpha: hsla(200, 20%, 10%, 0.9);
-  --color-yellow-800: hsl(50, 80%, 80%);
-  --color-yellow-750: hsl(50, 80%, 75%);
-  --color-yellow-200: hsl(50, 80%, 20%);
-  --color-brown-600: hsl(50, 10%, 60%);
-  --color-brown-160: hsl(50, 10%, 16%);
-  --color-brown-200: hsl(50, 10%, 20%);
+
   --stone-2-hsla: hsla(210, 11%, 93%, 0.5);
   --stone-12-hsla: hsla(60, 6%, 7%, 0.5);
 
