@@ -13,7 +13,7 @@
   border-radius: var(--border-radius-small);
   margin: 2em 0 !important;
 
-  & + .tip {
+  & + .warning {
     margin-top: -1.5em !important;
   }
 }
