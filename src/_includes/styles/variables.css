@@ -75,7 +75,7 @@
   --color-foreground-1: var(--stone-5-hsl);
   --color-background: var(--stone-0-hsl);
   --color-background-a: var(--stone-2-hsla);
-  --color-background-1: var(--stone-1-hsl);
+  --color-background-1: var(--stone-2-hsl);
   --color-background-2: var(--stone-2-hsl);
   --color-background-3: var(--stone-3-hsl);
   --color-light-title: var(--stone-2-hsl);

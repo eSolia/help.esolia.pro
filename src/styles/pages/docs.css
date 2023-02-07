@@ -142,7 +142,7 @@
 .doc-body {
   font: var(--text-body);
   letter-spacing: var(--text-body-spacing);
-  color: var(--color-foreground-1);
+  color: var(--color-foreground-2);
 
   & h2 {
     color: var(--color-foreground);
