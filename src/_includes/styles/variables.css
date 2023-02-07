@@ -5,12 +5,12 @@
   --font-code: 'JetBrains Mono', 'JetBrains-fallback', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
 
   /* Text styles */
-  --text-display-size: clamp(30px, 10vw, 75px);
+  --text-display-size: clamp(30px, 10vw, 70px);
   --text-display-height: 0.95;
   --text-display: 900 var(--text-display-size)/var(--text-display-height) var(--font-display);
   --text-display-spacing: -0.045em;
   --text-heading-size: clamp(18px, 8vw, 50px);
-  --text-heading: 900 var(--text-heading-size)/1.1 var(--font-display);
+  --text-heading: 100 var(--text-heading-size)/1.1 var(--font-display);
   --text-heading-spacing: -0.03em;
   --text-title-size: clamp(17px, 6vw, 25px);
   --text-title: 800 var(--text-title-size)/1.2 var(--font-display);
@@ -19,10 +19,12 @@
   --text-body: var(--text-body-size)/1.65 var(--font-ui);
   --text-body-bold: 800 var(--text-body-size)/1.6 var(--font-ui);
   --text-body-spacing: -0.02em;
-  --text-caption: 15px/1.6 var(--font-ui);
-  --text-caption-bold: 800 15px/1.6 var(--font-ui);
-  --text-caption-mini: 13px/1.6 var(--font-ui);
-  --text-caption-mini-bold: 800 13px/1.6 var(--font-ui);
+  --text-caption: 400 15px/1.6 var(--font-ui);
+  --text-caption-bold: 600 15px/1.6 var(--font-ui);
+  --text-caption-mini: 400 13px/1.6 var(--font-ui);
+  --text-caption-mini-bold: 600 13px/1.6 var(--font-ui);
+  --text-leader: 100 15px/1.6 var(--font-ui);
+  --text-leader-bold: 200 15px/1.6 var(--font-ui);
   --text-code: 16px/1.6 var(--font-code);
 
   /* Colors */
@@ -70,7 +72,7 @@
   --color-primary: var(--orange-6-hsl);
   --color-primary-1: var(--orange-9-hsl);
   --color-foreground: var(--stone-10-hsl);
-  --color-foreground-1: var(--stone-7-hsl);
+  --color-foreground-1: var(--stone-5-hsl);
   --color-background: var(--stone-0-hsl);
   --color-background-a: var(--stone-2-hsla);
   --color-background-1: var(--stone-1-hsl);
@@ -85,7 +87,7 @@
   --color-primary: var(--orange-5-hsl);
   --color-primary-1: var(--orange-3-hsl);
   --color-foreground: var(--stone-2-hsl);
-  --color-foreground-1: var(--stone-5-hsl);
+  --color-foreground-1: var(--stone-7-hsl);
   --color-background: var(--stone-9-hsl);
   --color-background-a: var(--stone-12-hsla);
   --color-background-1: var(--stone-10-hsl);

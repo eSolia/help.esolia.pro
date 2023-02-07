@@ -57,3 +57,29 @@ td {
 :not(:defined) {
   visibility: hidden;
 }
+
+
+/* Override normalize.css from open props */
+
+:where(h1, h2, h3, h4, h5, h6) {
+  line-height: var(--font-lineheight-1);
+  font-weight: var(--font-weight-7);
+}
+
+:where(h1) {
+  font-size: var(--font-size-8);
+  max-inline-size: var(--size-header-2);
+}
+
+:where(h2) {
+  font-size: var(--font-size-6);
+  max-inline-size: var(--size-header-3);
+}
+
+:where(h3) { font-size: var(--font-size-5) }
+:where(h4) { font-size: var(--font-size-4) }
+:where(h5) { font-size: var(--font-size-3) }
+
+:where(h3, h4, h5, h6, dt) {
+  max-inline-size: var(--size-header-4);
+}

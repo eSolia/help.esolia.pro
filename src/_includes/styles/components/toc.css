@@ -1,5 +1,7 @@
 .toc {
-  font: var(--text-caption);
+  font: var(--text-leader);
+  font-style: italic;
+  letter-spacing: var(--text-body-spacing);
   color: var(--color-foreground-1);
   margin: 0;
 
