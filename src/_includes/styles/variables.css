@@ -28,10 +28,7 @@
   --text-code: 16px/1.6 var(--font-code);
 
   /* Colors */
-  /* Tokens */
-
-  --stone-2-hsla: hsla(210, 11%, 93%, 0.5);
-  --stone-12-hsla: hsla(60, 6%, 7%, 0.5);
+  /* Tokens ALL REMOVED */
 
 
 
@@ -66,38 +63,38 @@
   }
 }
 
+.backdrop {
+  background-color: hsl(var(--gray-9-hsl) / 30%);
+}
+
 /* Theme light mode */
 :root[data-theme='light'] {
   color-scheme: light;
-  --color-primary: var(--orange-6-hsl);
-  --color-primary-1: var(--orange-9-hsl);
-  --color-foreground: var(--stone-10-hsl);
-  --color-foreground-1: var(--stone-5-hsl);
-  --color-background: var(--stone-0-hsl);
-  --color-background-a: var(--stone-2-hsla);
-  --color-background-1: var(--stone-2-hsl);
-  --color-background-2: var(--stone-2-hsl);
-  --color-background-3: var(--stone-3-hsl);
-  --color-light-title: var(--stone-2-hsl);
+  --color-primary: hsl(var(--orange-6-hsl));
+  --color-primary-1: hsl(var(--orange-9-hsl));
+  --color-foreground: hsl(var(--stone-10-hsl));
+  --color-foreground-1: hsl(var(--stone-5-hsl));
+  --color-background: hsl(var(--stone-0-hsl));
+  --color-background-a: hsl(var(--stone-3-hsl) / 30%);
+  --color-background-1: hsl(var(--stone-2-hsl));
+  --color-background-2: hsl(var(--stone-2-hsl));
+  --color-background-3: hsl(var(--stone-3-hsl));
+  --color-light-title: hsl(var(--stone-2-hsl));
 }
 
 /* Theme dark mode */
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --color-primary: var(--orange-5-hsl);
-  --color-primary-1: var(--orange-3-hsl);
-  --color-foreground: var(--stone-2-hsl);
-  --color-foreground-1: var(--stone-7-hsl);
-  --color-background: var(--stone-9-hsl);
-  --color-background-a: var(--stone-12-hsla);
-  --color-background-1: var(--stone-10-hsl);
-  --color-background-2: var(--stone-9-hsl);
-  --color-background-3: var(--stone-4-hsl);
-  --color-light-title: var(--stone-2-hsl);
+  --color-primary: hsl(var(--orange-5-hsl));
+  --color-primary-1: hsl(var(--orange-3-hsl));
+  --color-foreground: hsl(var(--stone-2-hsl));
+  --color-foreground-1: hsl(var(--stone-7-hsl));
+  --color-background: hsl(var(--stone-9-hsl));
+  --color-background-a: hsl(var(--stone-11-hsl) / 30%);
+  --color-background-1: hsl(var(--stone-10-hsl));
+  --color-background-2: hsl(var(--stone-9-hsl));
+  --color-background-3: hsl(var(--stone-4-hsl));
+  --color-light-title: hsl(var(--stone-2-hsl));
 
-  /* Overwrite @docsearch modal dark colors */
-  --docsearch-modal-background: var(--color-background);
-  --docsearch-key-gradient: background-image: linear-gradient(-26.5deg, var(--color-background), var(--color-background-1));
-  --docsearch-footer-background: var(--color-background-1);
-  --docsearch-muted-color: hsl(218deg, 14%, 64%);
+
 }
