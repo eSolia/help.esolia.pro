@@ -19,15 +19,15 @@
 }
 
 :root[data-theme="light"] .warning {
-  --color-warning: var(--red-1-hsl);
-  --color-warning-foreground: var(--red-11-hsl);
-  --color-warning-1: var(--red-5-hsl);
+  --color-warning: hsl(var(--red-1-hsl));
+  --color-warning-foreground: hsl(var(--red-11-hsl));
+  --color-warning-1: hsl(var(--red-5-hsl));
   --background-blend-mode: difference;
 }
 
 :root[data-theme="dark"] .warning {
-  --color-warning-foreground: var(--red-2-hsl);
-  --color-warning: var(--sand-10-hsl);
-  --color-warning-1: var(--sand-12-hsl);
+  --color-warning-foreground: hsl(var(--red-2-hsl));
+  --color-warning: hsl(var(--sand-10-hsl));
+  --color-warning-1: hsl(var(--sand-12-hsl));
   --background-blend-mode: screen;
 }

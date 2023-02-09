@@ -19,15 +19,15 @@
 }
 
 :root[data-theme="light"] .option {
-  --color-option: var(--green-1-hsl);
-  --color-option-foreground: var(--green-11-hsl);
-  --color-option-1: var(--green-5-hsl);
+  --color-option: hsl(var(--green-1-hsl));
+  --color-option-foreground: hsl(var(--green-11-hsl));
+  --color-option-1: hsl(var(--green-5-hsl));
   --background-blend-mode: difference;
 }
 
 :root[data-theme="dark"] .option {
-  --color-option-foreground: var(--green-2-hsl);
-  --color-option: var(--sand-10-hsl);
-  --color-option-1: var(--sand-12-hsl);
+  --color-option-foreground: hsl(var(--green-2-hsl));
+  --color-option: hsl(var(--sand-10-hsl));
+  --color-option-1: hsl(var(--sand-12-hsl));
   --background-blend-mode: screen;
 }

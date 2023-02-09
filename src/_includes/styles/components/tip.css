@@ -19,15 +19,15 @@
 }
 
 :root[data-theme="light"] .tip {
-  --color-tip: var(--yellow-1-hsl);
-  --color-tip-foreground: var(--yellow-11-hsl);
-  --color-tip-1: var(--yellow-5-hsl);
+  --color-tip: hsl(var(--yellow-1-hsl));
+  --color-tip-foreground: hsl(var(--yellow-11-hsl));
+  --color-tip-1: hsl(var(--yellow-5-hsl));
   --background-blend-mode: difference;
 }
 
 :root[data-theme="dark"] .tip {
-  --color-tip-foreground: var(--yellow-2-hsl);
-  --color-tip: var(--sand-10-hsl);
-  --color-tip-1: var(--sand-12-hsl);
+  --color-tip-foreground: hsl(var(--yellow-2-hsl));
+  --color-tip: hsl(var(--sand-10-hsl));
+  --color-tip-1: hsl(var(--sand-12-hsl));
   --background-blend-mode: screen;
 }
