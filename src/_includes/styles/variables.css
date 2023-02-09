@@ -33,9 +33,8 @@
 
 
   /* Borders */
-  --border-radius-small: 5px;
-  --border-radius: 10px;
-
+  --border-radius-small: var(--radius-conditional-2);
+  --border-radius: var(--radius-conditional-4);
   /* Animation */
   --animation-duration: 0.2s;
 
