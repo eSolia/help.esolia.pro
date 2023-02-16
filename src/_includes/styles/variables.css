@@ -5,20 +5,20 @@
   --font-code: 'JetBrains Mono', 'JetBrains-fallback', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
 
   /* Text styles */
-  --text-display-size: clamp(30px, 10vw, 70px);
-  --text-display-height: 0.95;
+  --text-display-size: var(--font-size-fluid-3);
+  --text-display-height: var(--font-lineheight-00);
   --text-display: 900 var(--text-display-size)/var(--text-display-height) var(--font-display);
-  --text-display-spacing: -0.045em;
-  --text-heading-size: clamp(18px, 8vw, 50px);
+  --text-display-spacing: var(--font-letterspacing-0);
+  --text-heading-size: var(--font-size-fluid-2);
   --text-heading: 100 var(--text-heading-size)/1.1 var(--font-display);
-  --text-heading-spacing: -0.03em;
-  --text-title-size: clamp(17px, 6vw, 25px);
+  --text-heading-spacing: var(--font-letterspacing-0);
+  --text-title-size: var(--font-size-fluid-1);
   --text-title: 800 var(--text-title-size)/1.2 var(--font-display);
-  --text-title-spacing: -0.03em;
-  --text-body-size: clamp(16px, 4vw, 20px);
+  --text-title-spacing: var(--font-letterspacing-0);
+  --text-body-size: var(--font-size-fluid-0);
   --text-body: var(--text-body-size)/1.65 var(--font-ui);
   --text-body-bold: 800 var(--text-body-size)/1.6 var(--font-ui);
-  --text-body-spacing: -0.02em;
+  --text-body-spacing: var(--font-letterspacing-1);
   --text-caption: 400 15px/1.6 var(--font-ui);
   --text-caption-bold: 600 15px/1.6 var(--font-ui);
   --text-caption-mini: 400 13px/1.6 var(--font-ui);

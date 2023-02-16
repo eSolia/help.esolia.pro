@@ -1,6 +1,6 @@
 .option {
   font: var(--text-caption);
-  font-weight: 100;
+  font-weight: var(--font-weight-1);
   letter-spacing: 0;
   color: var(--color-option-foreground);
   background-color: var(--color-option);
