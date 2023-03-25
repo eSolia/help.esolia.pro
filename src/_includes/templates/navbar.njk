@@ -13,20 +13,15 @@
           eSolia Inc.
         </a>
       </li>
-      {% for pageLang, page in alternates %}
-        {% if pageLang !== lang %}
-        <li class="langswitch" >
-          <a href="{{ page.data.url }}">
-            {% if pageLang == "ja" %}{{ i18n[pageLang].lname }}
-            {% elif pageLang == "en" %}{{ i18n[pageLang].lname }}
-            {% else %}{{ pageLang | upper }}{% endif %}
+      {% for alt in alternates %}
+        {% if alt.lang !== lang %}
+        <li class="langswitch">
+          <a href="{{ alt.url }}">
+            {{ i18n[alt.lang].lname }}
           </a>
         </li>
         {% endif %}
       {% endfor %}
     </ul>
-
-
   </div>
 </nav>
-
