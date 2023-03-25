@@ -8,7 +8,8 @@ metas:
   image: /logo/eSolia-Logo-Flat-2015.png
 lang: en
 series: en-prodb
-url: /en/prodb/prodb-application-architecture/
+url: /prodb/prodb-application-architecture/
+id: prodbapparchi
 tags:
   - PROdb
   - Architecture

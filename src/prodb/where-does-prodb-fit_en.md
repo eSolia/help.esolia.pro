@@ -6,7 +6,8 @@ order: 10
 category: Service Details
 lang: en
 series: en-prodb
-url: /en/prodb/where-does-prodb-fit/
+url: /prodb/where-does-prodb-fit/
+id: prodbfit
 tags:
   - PROdb
   - dbFLEX

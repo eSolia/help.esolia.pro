@@ -6,7 +6,8 @@ order: 40
 category: Service Details
 lang: en
 series: en-prodb
-url: /en/prodb/prodb-security-controls/
+url: /prodb/prodb-security-controls/
+id: prodbseccon
 templateEngine: [njk, md]
 tags:
   - PROdb

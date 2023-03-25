@@ -7,6 +7,7 @@ category: サービス詳細
 lang: ja
 series: ja-bulkemail
 url: /bulkemail/bulk-email-bounce-codes/
+id: bulkbouncecodes
 tags:
   - バルクメール
   - エラーコード

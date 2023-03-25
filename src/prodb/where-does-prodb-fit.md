@@ -7,6 +7,7 @@ category: サービス詳細
 lang: ja
 series: ja-prodb
 url: /prodb/where-does-prodb-fit/
+id: prodbfit
 tags:
   - PROdb
   - dbFLEX

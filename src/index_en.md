@@ -5,8 +5,9 @@ description: eSolia help pages for details on topics like PROdb or bulk email.
 order: 1
 lang: en
 series: en-home
-url: /en/
+url: /
 hideheader: true
+id: home
 ---
 
 ## Using this site

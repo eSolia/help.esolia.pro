@@ -7,6 +7,7 @@ category: サービス詳細
 lang: ja
 series: ja-prodb
 url: /prodb/prodb-security/
+id: prodbsec
 tags:
   - PROdb
   - セキュリティ

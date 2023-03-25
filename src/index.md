@@ -5,7 +5,9 @@ description: PROdbやバルクメールのトピックに関連するイソリ�
 order: 1
 lang: ja
 series: ja-home
+url: /
 hideheader: true
+id: home
 ---
 
 ## 本サイトご利用について
