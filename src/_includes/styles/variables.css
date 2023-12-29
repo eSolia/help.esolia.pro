@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
-  --font-display: 'MPlus2', 'Epilogue-fallback', var(--font-ui);
-  --font-ui: 'MPlus2', 'Inter-fallback', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+  --font-display: 'IBM Plex Sans JP', 'Epilogue-fallback', var(--font-ui);
+  --font-ui: 'IBM Plex Sans JP', 'Inter-fallback', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
   --font-code: 'JetBrains Mono', 'JetBrains-fallback', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
 
   /* Text styles */
