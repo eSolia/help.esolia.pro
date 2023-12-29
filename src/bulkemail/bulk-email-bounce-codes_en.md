@@ -6,7 +6,7 @@ order: 100
 category: Service Details
 lang: en
 series: en-bulkemail
-url: /bulkemail/bulk-email-bounce-codes/
+url: /Bulk-Email/bulk-email-bounce-codes/
 id: bulkbouncecodes
 tags:
   - Bulk Email
