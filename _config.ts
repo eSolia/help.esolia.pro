@@ -1,5 +1,6 @@
 import lume from "lume/mod.ts";
 import multilanguage from "lume/plugins/multilanguage.ts";
+import nav from "lume/plugins/nav.ts";
 import postcss from "lume/plugins/postcss.ts";
 import postcssFontFormatKeywords from "https://deno.land/x/postcss_font_format_keywords/mod.js";
 import codeHighlight from "lume/plugins/code_highlight.ts";
@@ -49,6 +50,7 @@ site
     defaultLanguage: "ja",
     }
   ))
+  .use(nav())
   .use(codeHighlight())
   .use(postcss(
 	  {
