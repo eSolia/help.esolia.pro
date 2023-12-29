@@ -23,7 +23,7 @@ eSolia has been a business partner of Foresoft since 2010, more than 12 years so
 
 Foresoft is PCI compliant, assessed by [Trustwave Holdings](https://www.trustwave.com/en-us/capabilities/by-mandate/pci/). See details on Foresoft's "Security and Stability" page [here](https://teamdesk.crmdesk.com/answer.aspx?aid=11476).
 
-![Secure Trust](/img/secure-trust-validate.png)
+[![Viking Cloud Secure Trust Validation Logo](/assets/img/viking-cloud-validate.png)](https://sealserver.trustwave.com/cert.php?customerId=7901d29c0ca511e0b34b005056b201e5)
 
 ## Infrastructure Housing
 
@@ -47,6 +47,6 @@ Any planned maintenance requiring restarts will occur weekly on Saturdays from a
 
 All systems are passing a monthly penetration test performed by Trustwave SecureTrust. 
 
-![Secure Trust Logo](/img/secure-trust-logo.png)
+![Secure Trust Logo](/assets/img/securetrust-logo-250.png)
 
           

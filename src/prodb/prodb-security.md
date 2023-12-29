@@ -23,7 +23,7 @@ tags:
 
 Foresoft は、Trustwave Holdings 社から PCI コンプライアンス準拠してます。[こちら](https://sealserver.trustwave.com/cert.php?customerId=7901d29c0ca511e0b34b005056b201e5&size=105x54&style=normal&language=jp)でご確認頂けます。
 
-![Secure Trust Validate](/img/secure-trust-validate.png)
+[![Viking Cloud Secure Trust Validation Logo](/assets/img/viking-cloud-validate.png)](https://sealserver.trustwave.com/cert.php?customerId=7901d29c0ca511e0b34b005056b201e5)
 
 ## トップレベル Tier 3 データセンター利用
 
@@ -56,6 +56,6 @@ PROdb は 256-ビット (SHA2) TLS サーティフィケイト、TLS1.0、1.1 �
 
 月次ベースでサーバーは Trustwave SecureTrust セキュリティ調査（pen test）を受けて、合格してます。
 
-![Secure Trust Logo](/img/secure-trust-logo.png)
+![Secure Trust Logo](/assets/img/securetrust-logo-250.png)
 
           
