@@ -19,32 +19,4 @@
     </ul>
   </details>
   {% endfor %}
-
-  {% if lang == "ja" %}
-    {% set page = search.page("url=/") %}
-    {% if page %}
-      <a class="menu-highlight" href="{{ page.data.url }}">{{ page.data.title or slug }}</a>
-    {% endif %}
-    <ul class="menu">
-    {% asyncEach item in nav.menu("/", "lang=ja hidemenu=undefined|false").children %}
-      <li>
-          {% include "templates/menu_item.njk" %}
-      </li>
-    {% endeach %}
-    </ul>
-  {% else %}
-    {% set page = search.page("url=/en/") %}
-    {% if page %}
-      <a class="menu-highlight" href="{{ page.data.url }}">{{ page.data.title or slug }}</a>
-    {% endif %}
-    <ul class="menu">
-    {% asyncEach item in nav.menu("/en/", "lang=en hidemenu=undefined|false").children %}
-      <li>
-        {% include "templates/menu_item.njk" %}
-      </li>
-    {% endeach %}
-    </ul>
-  {% endif %}
-
-
 </nav>
