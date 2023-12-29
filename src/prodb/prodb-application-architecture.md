@@ -18,7 +18,7 @@ tags:
 ## モダン且つセキュリティ重視しているアプリケーション
 dbFLEX アプリケーション アーキテクチャーは次の通りとなります：
 
-<img src="/img/figure-dbflex-system-architecture.png" width="100%" alt="図： PROdb アプリ アーキテクチャー">
+<img src="/assets/img/figure-dbflex-system-architecture.png" width="100%" alt="図： PROdb アプリ アーキテクチャー">
 
 
 -   dbFLEX は SQL データーベースの論理的ビューを提供してます。

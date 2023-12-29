@@ -8,7 +8,6 @@ lang: en
 series: en-prodb
 url: /prodb/prodb-security-controls/
 id: prodbseccon
-templateEngine: [njk, md]
 tags:
   - PROdb
   - Password
@@ -75,6 +74,6 @@ Therefore, when changing policy from "Never" to some setting such as "8 hours", 
 
 **Important:** Session cookie recreation _cannot_ be automatically performed from the system side. Have users sign out and back in when changing this policy.{.warning}
 
-<img src="/img/figure-prodb-security-controls-screen.png" width="100%" alt="Figure: PROdb Security Controls Screen">
+<img src="/assets/img/figure-prodb-security-controls-screen.png" width="100%" alt="Figure: PROdb Security Controls Screen">
 
 

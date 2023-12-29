@@ -6,7 +6,6 @@ metas:
     color: "#141b1f"
     icon: /img/apple-touch-icon.png
     generator: true
-layout: layouts/docs.njk
 main_menu: docs
 lang: [ja, en]
 i18n:
