@@ -6,7 +6,7 @@ order: 400
 category: サービス詳細
 lang: ja
 series: ja-prodb
-url: /prodb/prodb-security-controls/
+url: /PROdb/prodb-security-controls/
 id: prodbseccon
 tags:
   - PROdb
