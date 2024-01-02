@@ -14,6 +14,7 @@ import favicon from "lume/plugins/favicon.ts";
 import metas from "lume/plugins/metas.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
+import filterPages from "lume/plugins/filter_pages.ts";
 
 import "lume/types.ts";
 
@@ -40,6 +41,9 @@ export default function () {
     site.use(resolveUrls());
     site.use(date());
     site.use(basePath());
+    site.use(filterPages({
+      fn: (page) => page.data.ignored !== true,
+    }));
     site.data("layout", "layout.vto");
     site.data("date", "Git Last Modified");
     site.copy([

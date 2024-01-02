@@ -11,7 +11,7 @@
   {{ /if }}
 
   <ul class="menu">
-  {{ for item of nav.menu("/","lang="+[lang]).children.sort((a, b) => a.data?.order - b.data?.order) }}
+  {{ for item of nav.menu("/","hidemenu=undefined|false lang="+[lang]).children.sort((a, b) => a.data?.order - b.data?.order) }}
     <li>
       {{ include "templates/menu_item.vto" { item } }}
     </li>
