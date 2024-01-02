@@ -27,10 +27,11 @@ These are the policies that can be set:
    * Minimum password length
    * Allowed password characters
 1. Password expiration
+1. Enforce password history
 1. Failed sign-in action
    * Don't block, or,
    * Block after N failures
-1. Session Timeout
+1. Session Timeout length
 
 Each has different specific user impacts as follows.
 
@@ -47,6 +48,10 @@ Any password expiration timeout policy change will take effect immediately. PROd
 The user will be prompted to change their password, if today's date is past the calculated expiration date.
 
 **Note:** A password change can be forced by finding the user in the _All Users_ list, and setting the "Must Change Password" flag in that user's settings. PROdb will request the password change on next sign-in. {.tip}
+
+## Password History
+
+Selecting "Enforce password history" causes the system to disallow re-use of any passwords used in the past. 
 
 ## Failed sign-ins
 
@@ -74,6 +79,6 @@ Therefore, when changing policy from "Never" to some setting such as "8 hours", 
 
 **Important:** Session cookie recreation _cannot_ be automatically performed from the system side. Have users sign out and back in when changing this policy.{.warning}
 
-<img src="/assets/img/figure-prodb-security-controls-screen.png" width="100%" alt="Figure: PROdb Security Controls Screen">
+<img src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="Figure: PROdb Security Controls Screen">
 
 

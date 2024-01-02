@@ -26,11 +26,12 @@ PROdb エンタープライズサブスクリプションで、自社ドメイ�
 1. パスワード複雑さ:
    * 最小の文字数
    * 許可される文字
-2. パスワードの有効期限
-3. サインインが失敗したら
+1. パスワードの有効期限
+1. パスワードの再利用防止
+1. サインインが失敗したら
    * ブロックしない　もしくは
    * 〜回失敗したらブロック
-4. セッションタイムアウト
+1. セッションタイムアウト期間
 
 それぞれが次のように異なる特定のユーザーへの影響を持っています。
 
@@ -47,6 +48,10 @@ PROdb エンタープライズサブスクリプションで、自社ドメイ�
 今日の日付は、計算された日付より後だったら、PROdbがパスワード変更を要求します。
 
 **注意:** All Users一覧から、ユーザーを検索して "Must Change Password" フラグにチェックを入れて保存したら、次のサインイン時にPROdbはパスワード変更を要求します。 {.tip}
+
+## パスワードの再利用防止 Password History
+
+設定の "Enforce password history" にチェック入れて保存すると、パスワードの再利用が出来なくなります。 
 
 ## サインイン失敗 Failed Sign-ins
 
@@ -75,6 +80,6 @@ PROdbの「セッションタイムアウト」は「スライディング」で
 **重要:** システム側では強制的にセッションCookieを再作成させることができません。変更後、ユーザーにサインアウトさせる必要がある。{.warning}
 
 
-<img src="/assets/img/figure-prodb-security-controls-screen.png" width="100%" alt="図: PROdb Security Controls 画面">
+<img src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="図: PROdb Security Controls 画面">
 
 
