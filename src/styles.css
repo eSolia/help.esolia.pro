@@ -155,3 +155,12 @@ main img  {
   }
 }
 
+.language  {
+  list-style: none; 
+  border: 1px solid var(--code-background-selection);
+  border-radius: var(--border-radius);
+  padding: .8em 0.3em;
+  margin: 2em 0.1em;
+  white-space: nowrap;
+  text-align: center;
+}

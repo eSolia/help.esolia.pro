@@ -8,6 +8,13 @@ metas:
     generator: true
 main_menu: docs
 lang: [ja, en]
+site:
+    lname: "日本語"
+    sitename: "イソリア ヘルプ"
+en: 
+    site: 
+        lname: "English"
+        sitename: "eSolia Help"
 i18n:
     foo.ja: "バー"
     foo.en: "Bar"

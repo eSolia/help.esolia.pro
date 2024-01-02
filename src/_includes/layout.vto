@@ -8,10 +8,23 @@
   <body>
     <div class="container">
       <div class="toolbar">
-        <div id="search" class="search"></div>
+        <div id="search" class=""></div>
       </div>
 
       {{ include "templates/menu.vto" }}
+      
+      <ul class="language">
+        {{ for alt of alternates }}
+          {{ if alt.lang !== lang }}
+          <li>
+            <a href="{{ alt.url }}" >
+              {{ alt.site.lname }}
+            </a>
+          </li>
+          {{ /if }}
+        {{ /for }}
+      </ul>
+
 
       {{ if toc.length }}
       <nav class="toc">
