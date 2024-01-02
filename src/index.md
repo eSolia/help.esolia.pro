@@ -8,6 +8,7 @@ series: ja-home
 url: /
 hideheader: true
 id: home
+logo: /assets/logo/eSolia-Logo-Flat-2015.png
 ---
 
 ## 本サイトご利用について
