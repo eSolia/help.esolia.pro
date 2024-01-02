@@ -1,6 +1,6 @@
 <nav>
   <ul class="breadcrumb">
-    {{ for item of nav.breadcrumb(url) }}
+    {{ for item of nav.breadcrumb(url, "lang="+lang) }}
     {{ if item.data && item.data.url != url }}
     <li class="breadcrumb-item"><a href="{{ item.data.url }}">{{ item.data.title }}</a></li>
     {{ else if !item.data }}
