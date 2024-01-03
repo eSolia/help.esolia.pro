@@ -2,7 +2,7 @@
 title: PROdb Security Controls
 date: Git Last Modified
 description: Setting password, timeout and expiration policies.
-order: 40
+order: 400
 category: Service Details
 lang: en
 series: en-prodb
@@ -26,12 +26,12 @@ These are the policies that can be set:
 1. Password Complexity:
    * Minimum password length
    * Allowed password characters
-1. Password expiration
-1. Enforce password history
-1. Failed sign-in action
+2. Password expiration
+3. Enforce password history
+4. Failed sign-in action
    * Don't block, or,
    * Block after N failures
-1. Session Timeout length
+5. Session Timeout length
 
 Each has different specific user impacts as follows.
 
@@ -51,7 +51,7 @@ The user will be prompted to change their password, if today's date is past the 
 
 ## Password History
 
-Selecting "Enforce password history" causes the system to disallow re-use of any passwords used in the past. 
+Selecting "Enforce password history" causes the system to disallow re-use of any passwords set in the past. 
 
 ## Failed sign-ins
 

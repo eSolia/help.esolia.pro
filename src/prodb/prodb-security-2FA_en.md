@@ -2,7 +2,7 @@
 title: PROdb MFA Security Settings
 date: Git Last Modified
 description: Multifactor authentication settings
-order: 400
+order: 500
 category: Service Details
 lang: en
 series: en-prodb
