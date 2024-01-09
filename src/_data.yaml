@@ -7,6 +7,10 @@ metas:
     icon: /img/apple-touch-icon.png
     generator: true
 main_menu: docs
+extra_head: |
+  <!-- Fathom Analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="UGHNYDWT" defer></script>
+  <!-- / Fathom -->
 lang: [ja, en]
 site:
     lname: "日本語"
