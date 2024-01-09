@@ -25,28 +25,29 @@ export default function () {
       languages: ["ja", "en"],
       defaultLanguage: "ja",
       }
-    ));
-    site.use(codeHighlight());
-    site.use(attributes());
-    site.use(nav());
-    site.use(title());
-    site.use(metas());
-    site.use(sitemap());
-    site.use(toc());
-    site.use(footnotes());
-    site.use(postcss());
-    site.use(pagefind());
-    site.use(favicon());
-    site.use(prism());
-    site.use(resolveUrls());
-    site.use(date());
-    site.use(basePath());
-    site.use(filterPages({
+    ))
+    .use(codeHighlight())
+    .use(attributes())
+    .use(nav())
+    .use(title())
+    .use(metas())
+    .use(sitemap())
+    .use(toc())
+    .use(footnotes())
+    .use(postcss())
+    .use(pagefind())
+    .use(favicon())
+    .use(prism())
+    .use(resolveUrls())
+    .use(date())
+    .use(basePath())
+    .use(filterPages({
       fn: (page) => page.data.ignored !== true,
-    }));
-    site.data("layout", "layout.vto");
-    site.data("date", "Git Last Modified");
-    site.copy([
+    }))
+    .data("layout", "layout.vto")
+    .data("date", "Git Last Modified")
+    .mergeKey("extra_head", "stringArray")
+    .copy([
       ".jpg",
       ".jpeg",
       ".png",
