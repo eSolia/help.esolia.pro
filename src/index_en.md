@@ -11,7 +11,7 @@ id: home
 logo: /assets/logo/eSolia-Logo-Flat-2015.png
 ---
 
-## Using this site
+## Welcome
 
-Thank you for stopping by. This site contains eSolia's help pages with topical information. Use the search function, or look at the navigation menu to find a page to view. 
+Thank you for stopping by. This site contains eSolia's help pages with topical information. Use the above search function, or look at the navigation menu to find a page to view. 
 
