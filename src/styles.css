@@ -288,9 +288,9 @@
   --color-tip-1: var(--color-yellow-750);
   --background-blend-mode: difference;
   
-  --color-warning: hsl(var(--red-1-hsl));
-  --color-warning-foreground: hsl(var(--red-11-hsl));
-  --color-warning-1: hsl(var(--red-5-hsl));
+  --color-warning: var(--red-1-hsl);
+  --color-warning-foreground: var(--red-11-hsl);
+  --color-warning-1: var(--red-5-hsl);
   
 
 }
