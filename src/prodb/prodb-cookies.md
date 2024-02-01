@@ -25,7 +25,7 @@ The following are the cookies utilized in versions 3 or 2 of the user interface:
 
 * **.SOD** - authorization information. It contains no personal information and is encrypted to prevent third-parties from sniffing its content. Not visible outside `https://your.dbflex.domain/secure`. Not visible for scripts.
 * **lastappid** - last visited database identifier, number. Not visible outside `https://your.dbflex.domain/secure`. Not visible for scripts.
-* **opendoc** - short lived cookie for Navigate to Document custom action, contains options for the document to generate. Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Not visible for scripts. Short lived -- exists when navigating from the page executing Document Navigation action to a target page. Removed immediately after navigation.
+* **opendoc** - short lived cookie for the "Navigate to Document" custom action, containing options for the document to generate. Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Not visible for scripts. Short lived -- exists when navigating from the page executing Document Navigation action to a target page. Removed immediately after navigation.
 * **td-wks** - currently selected workspace ID, number. Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Set by script, read by the server.
 * **v3** - (new) indicates the user switched to the new design (beta as of year end 2023). Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Set by script, read by the server.
 
