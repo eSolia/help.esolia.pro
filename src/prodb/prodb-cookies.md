@@ -2,7 +2,7 @@
 title: PROdb クッキー
 date: Git Last Modified
 description: 信頼できるSaaSクラウド型データーベース「PROdb」はどんなクッキーを作成するか。
-order: 200
+order: 500
 category: サービス詳細
 lang: ja
 series: ja-prodb
