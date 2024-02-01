@@ -17,7 +17,7 @@ tags:
           
 # PROdb クッキー
 
-PROdb's platform dbFLEX uses cookies for authentication, storing certain user preferences and tracking user movements around the site. No cookies, however, contain personally identifiable information. 
+PROdb's platform dbFLEX uses cookies for authentication, storing certain user preferences and tracking user movements around the site. No cookies, however, contain personally identifiable information, PII. 
 
 ## 標準
 
