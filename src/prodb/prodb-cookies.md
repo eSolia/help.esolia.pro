@@ -17,28 +17,28 @@ tags:
           
 # PROdb クッキー
 
-PROdb's platform dbFLEX uses cookies for authentication, storing certain user preferences and tracking user movements around the site. No cookies, however, contain personally identifiable information, PII. 
+PROdbのプラットフォームdbFLEXは、認証、特定のユーザー設定の保存、及びサイト内でのユーザーの動きの追跡のためにクッキーを使用します。ただし、個人を特定できる情報(PII)を含むクッキーはありません。
 
 ## 標準
 
-The following are the cookies utilized in versions 3 or 2 of the user interface:
+ユーザーインターフェイスのバージョン３またはバージョン２で使用されるクッキーは次の通りです。
 
-* **.SOD** - authorization information. It contains no personal information and is encrypted to prevent third-parties from sniffing its content. Not visible outside `https://your.dbflex.domain/secure`. Not visible for scripts.
-* **lastappid** - last visited database identifier, number. Not visible outside `https://your.dbflex.domain/secure`. Not visible for scripts.
-* **opendoc** - short lived cookie for the "Navigate to Document" custom action, containing options for the document to generate. Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Not visible for scripts. Short lived -- exists when navigating from the page executing Document Navigation action to a target page. Removed immediately after navigation.
-* **td-wks** - currently selected workspace ID, number. Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Set by script, read by the server.
-* **v3** - (new) indicates the user switched to the new design (beta as of year end 2023). Not visible outside `https://your.dbflex.domain/secure/db/your-app-id`. Set by script, read by the server.
+* **.SOD** - 認証情報。個人情報は含まれておらず、第三者が内容を盗み見ることを防ぐために暗号化もされております。`https://your.dbflex.domain/secure` 以外では表示されません。スクリプトでは表示されません。
+* **lastappid** - 最後にアクセスしたデータベースの識別子、番号。`https://your.dbflex.domain/secure`以外では表示されません。スクリプトでは表示されません。
+* **opendoc** - 「ドキュメントへ移動」というカスタムアクション用クッキーで、ドキュメントを生成するためのオプションが含まれてます。`https://your.dbflex.domain/secure/db/your-app-id` 以外では表示されません。スクリプトでは表示されません。有効期限は短い - ドキュメントナビゲーションアクションを実行しているページからターゲットページに移動するときに存在するのみでナビゲーション直後に削除されます。
+* **td-wks** - 現在選択されているワークスペースID、番号。`https://your.dbflex.domain/secure/db/your-app-id`以外では表示されません。スクリプトによって設定され、サーバーによって読み込まれます。
+* **v3** - この新クッキーは、ユーザーが新しいV3デザイン（2023年末時点でべーた版）に切り替えたことを示します。`https://your.dbflex.domain/secure/db/your-app-id`以外では表示されません。スクリプトによって設定され、サーバーによって読み込まれます。
 
 ## ブラウザーのみ設定
 
-The following two are used by the V2 UI only, because the V3 UI stores browser-only settings in localStorage: 
+V3 UIはブラウザー専用の設定をlocalStorageに保存するため、以下の２つはV2 UIのみで使用されます。
 
-* **td-sidebar** - show or hide the sidebar
-* **td-dense** - use small or large fonts
+* **td-sidebar** - ユーザー毎サイドバーの表示または非表示
+* **td-dense** - ユーザー毎小さいフォントまたは大きいフォントの使用
 
 ## 管理者用 Setup セクション
 
-Finally, the two below are for setup pages used by system administrators:
+最後に、以下の2つはシステム管理者が使用するSETUP（設定）ページです。
 
-* **CSRFToken** - short-lived cookie with encrypted randomly generated token used to protect from cross-site request forgery (currently in setup section). Not visible outside `https://your.dbflex.domain/secure`. Not visible for scripts.
-* **pins** -- stores the list of pinned table IDs. Not visible outside `https://your.dbflex.domain/secure/db/your-app-id` or `https://your.dbflex.domain/secure/db/your-app-id/setup`. Set by script, read by the server.
+* **CSRFToken** - クロスサイトリクエストフォージェリから保護するために使用される暗号化されたランダムに生成されたトークンを含む有効期間の短いクッキー（現在SETUPセクションにあります）。`https://your.dbflex.domain/secure`以外では表示されません。スクリプトでは表示されません。
+* **pins** -- ピン留めされたテーブルIDのリストを保存します。`https://your.dbflex.domain/secure/db/your-app-id`または`https://your.dbflex.domain/secure/db/your-app-id/setup`以外では表示されません。スクリプトに設定され、サーバーに読み込まれます。
