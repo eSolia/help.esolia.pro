@@ -15,10 +15,12 @@ lang: [ja, en]
 site:
     lname: "日本語"
     sitename: "イソリア ヘルプ"
+    lastup: "最終更新"
 en: 
     site: 
         lname: "English"
         sitename: "eSolia Help"
+        lastup: "Last updated"
 i18n:
     foo.ja: "バー"
     foo.en: "Bar"

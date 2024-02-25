@@ -86,7 +86,7 @@
 
       {{ if it.edit != false }}
       <footer class="body-footer">
-        <time timestamp="{{ date |> date("DATETIME") }}">Last updated: {{ date |> date("HUMAN_DATETIME") }}</time>
+        <time timestamp="{{ date |> date("DATETIME") }}">{{ site.lastup }}: {{ date |> date("HUMAN_DATETIME", [lang]) }}</time>
         {{ if it.repo }}
           &nbsp;—&nbsp;
           <a href="{{ repo.url }}/edit/main{{ repo.path }}{{ page.src.path }}{{ page.src.ext }}">Edit this page</a>

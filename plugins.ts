@@ -9,6 +9,8 @@ import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.0/toc.ts";
 import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.7.0/footnotes.ts";
 import prism from "lume/plugins/prism.ts";
 import date from "lume/plugins/date.ts";
+import { enUS } from "npm:date-fns/locale/en-US";
+import { ja } from "npm:date-fns/locale/ja";
 import basePath from "lume/plugins/base_path.ts";
 import favicon from "lume/plugins/favicon.ts";
 import metas from "lume/plugins/metas.ts";
@@ -39,7 +41,11 @@ export default function () {
     .use(favicon())
     .use(prism())
     .use(resolveUrls())
-    .use(date())
+    .use(date(
+      {
+        locales: { enUS, ja },
+      }
+    ))
     .use(basePath())
     .use(filterPages({
       fn: (page) => page.data.ignored !== true,
