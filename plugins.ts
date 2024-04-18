@@ -63,6 +63,7 @@ export default function () {
       ".webm",
       ".gif",
       ".svg",
+      ".pdf",
     ]);
 
     // Basic CSS Design System
