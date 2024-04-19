@@ -13,6 +13,7 @@ import { enUS } from "npm:date-fns/locale/en-US";
 import { ja } from "npm:date-fns/locale/ja";
 import basePath from "lume/plugins/base_path.ts";
 import favicon from "lume/plugins/favicon.ts";
+import ogImages from "lume/plugins/og_images.ts";
 import metas from "lume/plugins/metas.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
@@ -32,6 +33,7 @@ export default function () {
     .use(attributes())
     .use(nav())
     .use(title())
+    .use(ogImages())
     .use(metas())
     .use(sitemap())
     .use(toc())
@@ -51,6 +53,7 @@ export default function () {
       fn: (page) => page.data.ignored !== true,
     }))
     .data("layout", "layout.vto")
+    .data("og_images", "og_images.jsx")
     .data("date", "Git Last Modified")
     .mergeKey("extra_head", "stringArray")
     .copy([

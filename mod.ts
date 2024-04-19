@@ -14,6 +14,7 @@ export default function () {
       "_includes/styles.css",
       "_includes/templates/breadcrumb.vto",
       "_includes/layout.vto",
+      "_includes/og_images.jsx",
       "_includes/templates/menu_item.vto",
       "_includes/templates/menu.vto",
       "404.md",

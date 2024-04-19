@@ -1,3 +1,4 @@
+openGraphLayout: _includes/og_images.jsx
 metas:
     title: =title
     description: =description
