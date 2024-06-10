@@ -192,6 +192,7 @@
   --lime-11-hsl: hsl(85, 83%, 21%);
   --lime-12-hsl: hsl(85, 84%, 15%);
   --yellow-0-hsl: hsl(50, 100%, 93%);
+  --esolia-yellow-0-hsl: hsl(52.5, 100%, 92.16%);
   --yellow-1-hsl: hsl(49, 100%, 87%);
   --yellow-2-hsl: hsl(49, 100%, 80%);
   --yellow-3-hsl: hsl(48, 100%, 70%);
@@ -292,7 +293,7 @@
   --color-warning-foreground: var(--red-11-hsl);
   --color-warning-1: var(--red-5-hsl);
   
-  --color-highlight: var(--yellow-0-hsl);
+  --color-highlight: var(--esolia-yellow-0-hsl);
 
 }
 
