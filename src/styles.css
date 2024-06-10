@@ -292,6 +292,7 @@
   --color-warning-foreground: var(--red-11-hsl);
   --color-warning-1: var(--red-5-hsl);
   
+  --color-highlight: var(--yellow-0-hsl);
 
 }
 
