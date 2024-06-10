@@ -8,7 +8,7 @@ series: en-home
 url: /
 hideheader: true
 id: home
-logo: /assets/logo/eSolia-Logo-Flat-2015.png
+logo: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
 ---
 
 ## Welcome

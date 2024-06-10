@@ -5,7 +5,7 @@ description: Introducing PROdb's modern and secure application architecture
 order: 300
 category: Service Details
 metas:
-  image: /logo/eSolia-Logo-Flat-2015.png
+  image: /logo/logo_horiz_darkblue_bgtransparent_web.png
 lang: en
 series: en-prodb
 url: /PROdb/prodb-application-architecture/
