@@ -284,9 +284,9 @@
   --jungle-11-hsl: hsl(73, 91%, 21%);
   --jungle-12-hsl: hsl(73, 90%, 16%);
 
-  --color-tip: var(--color-yellow-800);
-  --color-tip-foreground: var(--color-yellow-200);
-  --color-tip-1: var(--color-yellow-750);
+  --color-tip: var(--esolia-yellow-0-hsl);
+  --color-tip-foreground: var(--cyan-11-hsl);
+  --color-tip-1: var(--yellow-4-hsl);
   --background-blend-mode: difference;
   
   --color-warning: var(--red-1-hsl);
