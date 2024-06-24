@@ -13,7 +13,8 @@ tags:
   - リンク
 ---
 
-### 参考文献（各行政機関の情報リスト）​
+# 参考文献
+## 各行政機関の情報リスト​
 ​
 - 国土交通省「[防災情報提供センター](https://www.mlit.go.jp/saigai/bosaijoho/)」​
 - 内閣府「[避難情報に関するガイドラインの改定（令和３年５月](https://www.bousai.go.jp/oukyu/hinanjouhou/r3_hinanjouhou_guideline/)」​
