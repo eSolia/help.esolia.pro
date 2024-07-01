@@ -19,6 +19,8 @@ import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
 import filterPages from "lume/plugins/filter_pages.ts";
 
+// import cache_busting from "https://raw.githubusercontent.com/lumeland/experimental-plugins/c8778bfbf480f57a2357ab94bc22290b8bf11d12/cache_busting/mod.ts";
+
 import "lume/types.ts";
 
 
@@ -54,6 +56,7 @@ export default function () {
     .use(filterPages({
       fn: (page) => page.data.ignored !== true,
     }))
+    //.use(cache_busting())
     .data("layout", "layout.vto")
     .data("og_images", "og_images.jsx")
     .data("date", "Git Last Modified")
@@ -74,7 +77,7 @@ export default function () {
     // Basic CSS Design System
     site.remoteFile(
       "_includes/css/ds.css",
-      "https://unpkg.com/@lumeland/ds@0.3.3/ds.css",
+      "https://unpkg.com/@lumeland/ds@0.5.2/ds.css",
     );
   };
 }
