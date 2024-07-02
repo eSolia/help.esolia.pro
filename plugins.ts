@@ -56,7 +56,7 @@ export default function () {
     .use(filterPages({
       fn: (page) => page.data.ignored !== true,
     }))
-    //.use(cache_busting())
+    // .use(cache_busting())
     .data("layout", "layout.vto")
     .data("og_images", "og_images.jsx")
     .data("date", "Git Last Modified")
