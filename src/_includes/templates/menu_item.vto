@@ -1,10 +1,10 @@
-{{ if item.data }}
+{{ if item.data.url }}
   <a {{ if item.data.url == url }}aria-current="page"{{ /if }} href="{{ item.data.url }}">
     {{ if item.children }}📁{{ /if }}
-    {{ item.data.title || item.slug }}
+    {{ item.data.title || item.data.basename }}
   </a>
 {{ else }}
-  <span>📁 {{ item.slug }}</span>
+  <span>📁 {{ item.data.basename }}</span>
 {{ /if }}
 
 {{ if item.children }}
