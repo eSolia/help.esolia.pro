@@ -4,7 +4,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 100;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-jp-200 - japanese_latin_latin-ext */
 @font-face {
@@ -12,7 +12,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 200;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-jp-300 - japanese_latin_latin-ext */
 @font-face {
@@ -20,7 +20,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 300;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-jp-regular - japanese_latin_latin-ext */
 @font-face {
@@ -28,7 +28,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-jp-500 - japanese_latin_latin-ext */
 @font-face {
@@ -36,7 +36,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 500;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-jp-600 - japanese_latin_latin-ext */
 @font-face {
@@ -44,7 +44,7 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 600;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* ibm-plex-sans-jp-700 - japanese_latin_latin-ext */
 @font-face {
@@ -52,6 +52,6 @@
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 700;
-  src: url('../assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/assets/fonts/ibm-plex-sans-jp-v5-japanese_latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
