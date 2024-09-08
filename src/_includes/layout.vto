@@ -1,4 +1,4 @@
-<html>
+<html lang="{{ it.lang || "en" }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -7,6 +7,7 @@
     <meta name="theme-color" content="hsl(220, 20%, 100%)" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="hsl(220, 20%, 10%)" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="/styles.css?cb={{ cacheBuster }}">
+    <script type="module" src="/menu.js"></script>
     <link rel="canonical" href="{{ url |> url(true) }}">
     {{ it.extra_head?.join("\n") }}
   </head>
@@ -15,6 +16,18 @@
     <div class="container">
       <div class="toolbar">
         <div id="search" class=""></div>
+        <script>
+          let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+          document.documentElement.dataset.theme = theme;
+          function changeTheme() {
+            theme = theme === "dark" ? "light" : "dark";
+            localStorage.setItem("theme", theme);
+            document.documentElement.dataset.theme = theme;
+          }
+        </script>
+        
       </div>
 
       {{ include "templates/menu.vto" }}
@@ -26,9 +39,12 @@
             <a href="{{ alt.url }}" >
               {{ alt.site.lname }}
             </a>
+            <button class="button theme" onclick="changeTheme()">
+              <span class="icon">◐</span>
+            </button>
           </li>
           {{ /if }}
-        {{ /for }}
+        {{ /for }}    
       </ul>
 
 

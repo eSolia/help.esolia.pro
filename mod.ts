@@ -1,11 +1,12 @@
 import plugins from "./plugins.ts";
 
 import "lume/types.ts";
+import type { Options } from "./plugins.ts";
 
-export default function () {
+export default function (options?: Options) {
   return (site: Lume.Site) => {
     // Configure the site
-    site.use(plugins());
+    site.use(plugins(options));
 
     // Add remote files
     const files = [
@@ -19,6 +20,8 @@ export default function () {
       "_includes/templates/menu.vto",
       "404.md",
       "index.md",
+      "menu.js",
+      "menu.page.ts",
       "styles.css",
     ];
 

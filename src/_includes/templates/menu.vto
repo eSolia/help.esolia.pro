@@ -9,11 +9,25 @@
     {{ /if }}
   {{ /if }}
 
-  <ul class="menu">
+  {{# <ul class="menu">
   {{ for item of nav.menu("/","hidemenu=undefined|false lang="+[lang]).children.sort((a, b) => a.data?.order - b.data?.order) }}
     <li>
       {{ include "templates/menu_item.vto" { item } }}
     </li>
   {{ /for }}
+  </ul> #}}
+
+
+<tree-menu class="menu" data-url="{{ '/menu.json' |> url }}"></tree-menu>
+
+  {{- for link of menu_links }}
+    <li>
+      <a href="{{ link.href }}" class="menu-custom">
+        {{ link.icon |> icon }}
+        {{ link.text }}
+      </a>
+    </li>
+  {{ /for }}
   </ul>
+
 </nav>

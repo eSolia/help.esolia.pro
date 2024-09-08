@@ -9,6 +9,7 @@
 /* Override Font and set colors */
 :root {
   --font-family-ui: "IBM Plex Sans JP", Inter, -apple-system, system-ui, sans-serif;
+  --font-family-display: "IBM Plex Sans JP", Inter, -apple-system, system-ui, sans-serif;
   --code-token-1: hsl(330, 90%, 30%);
 
   /* Colors */
@@ -356,7 +357,12 @@
     align-content: start;
     grid-template-columns: 1fr minmax(10vw, 250px);
     padding-top: 2rem;
+    padding-bottom: 0;
     border-right: solid 1px var(--color-line);
+    align-self: start;
+    height: 100vh;
+    position: sticky;
+    top: 0;
 
     > * {
       grid-column: 2;
@@ -365,9 +371,23 @@
 }
 .container > .toolbar {
   grid-area: toolbar;
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+
+  .search {
+    flex: 1 1 auto;
+  }
 
   @media (min-width: 950px) {
     padding-top: 2rem;
+  }
+  @media (min-width: 1200px) {
+    .theme {
+      position: fixed;
+      top: 1rem;
+      right: 1.2rem;
+    }
   }
 }
 main {
@@ -387,6 +407,14 @@ main {
   border-top: solid 1px var(--color-line);
   padding: 1em 0;
   margin-top: 1em;
+}
+
+/* Alignment fix */
+.icon:not(:has(svg)) {
+  padding-bottom: .25em;
+}
+.icon {
+  vertical-align: middle;
 }
 
 main img  {

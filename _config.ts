@@ -6,6 +6,7 @@ const site = lume({
 });
 site.use(notes());
 site.copy("assets");
+site.copy("menu.js");
 
 // Create zip and tree scripts
 site.script("zipsite", "zip -r _site/help_esolia_pro_site.zip _site");
