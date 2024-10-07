@@ -9,13 +9,17 @@
     {{ /if }}
   {{ /if }}
 
-  {{# <ul class="menu">
-  {{ for item of nav.menu("/","hidemenu=undefined|false lang="+[lang]).children.sort((a, b) => a.data?.order - b.data?.order) }}
+ {{ if alternates?.length > 1 }}  
+  <ul class="menu-languages">
+  {{ for alt of alternates }}
     <li>
-      {{ include "templates/menu_item.vto" { item } }}
+      <a href="{{ alt.url }}" {{ if alt.lang == lang }}aria-current="page"{{ /if }} title="{{ alt.title |> escape }}">
+        {{ alt.lang |> langName }}
+      </a>
     </li>
   {{ /for }}
-  </ul> #}}
+  </ul>
+  {{ /if }}
 
 
 <tree-menu class="menu" data-url="{{ '/menu.json' |> url }}"></tree-menu>

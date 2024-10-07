@@ -1,10 +1,13 @@
 import lume from "lume/mod.ts";
-import notes from "./mod.ts";
+import wiki from "wiki/mod.ts";
 
 const site = lume({
   src: "./src",
 });
-site.use(notes());
+site.use(wiki({
+  languages: ["ja", "en"],
+  defaultLanguage: "ja",
+}));
 site.copy("assets");
 site.copy("menu.js");
 

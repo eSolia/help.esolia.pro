@@ -1,11 +1,13 @@
 <html lang="{{ it.lang || "en" }}">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>{{ it.title || it.basename }}</title>
+
     <meta name="supported-color-schemes" content="light dark">
     <meta name="theme-color" content="hsl(220, 20%, 100%)" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="hsl(220, 20%, 10%)" media="(prefers-color-scheme: dark)">
+    
     <link rel="stylesheet" href="/styles.css?cb={{ cacheBuster }}">
     <script type="module" src="/menu.js"></script>
     <link rel="canonical" href="{{ url |> url(true) }}">
@@ -15,7 +17,7 @@
   <body>
     <div class="container">
       <div class="toolbar">
-        <div id="search" class=""></div>
+        <div id="search" class="search"></div>
         <script>
           let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches
             ? "dark"
@@ -31,24 +33,8 @@
       </div>
 
       {{ include "templates/menu.vto" }}
-      
-      <ul class="language">
-        {{ for alt of alternates }}
-          {{ if alt.lang !== lang }}
-          <li>
-            <a href="{{ alt.url }}" >
-              {{ alt.site.lname }}
-            </a>
-            <button class="button theme" onclick="changeTheme()">
-              <span class="icon">◐</span>
-            </button>
-          </li>
-          {{ /if }}
-        {{ /for }}    
-      </ul>
 
-
-      {{ if toc.length }}
+       {{ if toc?.length }}
       <nav class="toc">
         <h2>On this page</h2>
         <ol>
@@ -86,7 +72,7 @@
           {{ /if }}
         </div>
 
-        {{ if it.footnotes.length }}
+        {{ if it.footnotes?.length }}
         <aside role="note" class="footnotes">
           <dl>
             {{ for note of footnotes }}
@@ -100,7 +86,7 @@
         {{ /if }}
       </main>
 
-      {{ if it.edit != false }}
+      {{ if it.edit != false && it.repo }}
       <footer class="body-footer">
         <time timestamp="{{ date |> date("DATETIME") }}">{{ site.lastup }}: {{ date |> date("HUMAN_DATETIME", [lang]) }}</time>
         {{ if it.repo }}

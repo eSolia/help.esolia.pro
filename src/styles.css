@@ -1,5 +1,5 @@
 /* Lume's design system */
-@import "css/ds.css";
+@import "https://unpkg.com/@lumeland/ds@0.5.2/ds.css";
 
 /* Custom components */
 @import "css/menu.css";
@@ -318,11 +318,11 @@
     padding: 5vw;
   }
   @media (min-width: 950px) {
-    grid-template-columns: 1fr minmax(10vw, 250px) minmax(0, 800px) 1fr;
+    grid-template-columns: clamp(250px, 25vw, 300px) minmax(0, 800px) 1fr;
     grid-template-rows: auto auto 1fr;
-    grid-template-areas: "menu menu toolbar"
-                         "menu menu main"
-                         "menu menu footer";
+    grid-template-areas: "menu toolbar"
+                         "menu main"
+                         "menu footer";
   }
   @media (min-width: 1200px) {
     grid-template-columns: 1fr minmax(10vw, 250px) minmax(0, 800px) 200px 1fr;
@@ -346,9 +346,9 @@
 .container > nav.menu-container {
   grid-area: menu;
   background-color: var(--color-highlight);
+  padding: 1rem;
 
   @media (max-width: 949px) {
-    padding: 1rem;
     border-radius: var(--border-radius);
   }
 
@@ -356,6 +356,7 @@
     display: grid;
     align-content: start;
     grid-template-columns: 1fr minmax(10vw, 250px);
+    grid-template-rows: auto minmax(0, 1fr);
     padding-top: 2rem;
     padding-bottom: 0;
     border-right: solid 1px var(--color-line);
@@ -366,6 +367,10 @@
 
     > * {
       grid-column: 2;
+    }
+
+    &:has(.menu-languages) {
+      grid-template-rows: auto auto minmax(0, 1fr);
     }
   }
 }
@@ -395,10 +400,6 @@ main {
 }
 .body {
   margin-top: var(--row-gap-xsmall);
-
-  & h1 {
-    color: var(--color-base);
-  }
 }
 .body-footer {
   grid-area: footer;
@@ -417,6 +418,8 @@ main {
   vertical-align: middle;
 }
 
+
+/* eSolia CUSTOM  */
 main img  {
   border: 1px solid var(--code-background-selection);
   border-radius: var(--border-radius);
