@@ -1,7 +1,7 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.3.2/",
+    "lume/": "https://deno.land/x/lume@v2.3.3/",
     "wiki/": "https://deno.land/x/lume_theme_simple_wiki@v0.11.0/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.5.10/"
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.6.8/"
   }
 }
