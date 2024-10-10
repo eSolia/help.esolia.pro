@@ -6,7 +6,7 @@ order: 100
 category: 情報共有
 lang: ja
 series: ja-bousai
-url: /Bousai/esolia-bousai-links/
+url: /防災/esolia-bousai-links/
 id: bousailinks
 tags:
   - 防災
