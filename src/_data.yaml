@@ -1,3 +1,10 @@
+menu_links: 
+  - text: <strong>eSolia Inc.</strong>
+    href: https://esolia.com
+    icon: building-office
+  - text: GitHub repository
+    href: https://github.com/eSolia/help.esolia.pro
+    icon: github-logo
 openGraphLayout: _includes/og_images.jsx
 metas:
     title: =title
