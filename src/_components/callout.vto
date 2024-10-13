@@ -1,0 +1,40 @@
+{{if type == "warning"}}
+{{set color = "darkred"}}
+{{set bgcolor = "pink"}}
+{{set emoji = "warning"}}
+{{set role = "alert"}} 
+<aside role="{{role}}"><i class="ph-fill ph-{{emoji}}" style="color: {{color}}"></i>&nbsp;&nbsp;<strong>Warning:&nbsp;</strong>{{ text }}</aside>
+
+{{else if type == "info"}}
+{{set color = "blue"}}
+{{set emoji = "lightbulb"}}
+{{set role = "comment"}}
+<aside role="{{role}}"><strong><i class="ph-fill ph-{{emoji}}" style="color: {{color}}"></i></strong>&nbsp;{{ text }}</aside>
+
+{{else if type == "success"}}
+{{set color = "green"}}
+{{set emoji = "thumbs-up"}}
+{{set role = "comment"}}
+<aside role="{{role}}"><strong><i class="ph-fill ph-{{emoji}}" style="color: {{color}}"></i></strong>&nbsp;{{ text }}</aside>
+
+{{else}}
+{{set color = "gray"}}
+{{set emoji = "question"}}
+{{set role = "comment"}}
+<aside role="{{role}}"><strong><i class="ph-fill ph-{{emoji}}" style="color: {{color}}"></i></strong>&nbsp;{{ text }}</aside>
+{{/if}}
+
+
+
+
+<style>
+aside {
+	background-color: {{ bgcolor }};
+	color: dark-gray;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	i {
+		font-size: 1em;
+  }
+</style>
