@@ -2,7 +2,7 @@
 title: バルクメールのエラーコード
 date: Git Last Modified
 description: バルクメールシステムで利用しているエラーコード
-order: 100
+order: 3
 category: サービス詳細
 lang: ja
 series: ja-bulkemail
