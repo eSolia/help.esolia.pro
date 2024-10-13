@@ -29,7 +29,8 @@ Add the sender to your address list in Outlook or other email clients you use.
 
 In the [security.microsoft.com/antispam](https://security.microsoft.com/antispam) admin screen for M365, you can add a domain as trusted. 
 
-N.b.: Microsoft changes URLs and names but often keeps features the same, so you need to stay on top of that. {.tip}
+> [!IMPORTANT]
+> Microsoft _changes URLs and feature names_ but often functionality remains the same, so you need to stay on top of that. 
 
 <img src="/assets/img/figure-m365-antispam_en.png" width="100%" alt="Fig: M365 antispam setting screen">
 

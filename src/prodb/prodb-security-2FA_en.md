@@ -46,5 +46,5 @@ Here's the typical login process, assuming users with a paired TMC app:
 2. Users unlock their phones, and TMC app will show a popup which can be tapped to log in. The first time, users should tap to allow it to use FaceID for convenience. Subsequently, users just tap and authenticate via FaceID. 
 3. Users will see PROdb will automatically switch from the "Code" screen to the normal logged in start screen.
 
-**Tip:** Users should upgrade the TMC app, and be aware that popups in TMC may be suppressed by "Focus" or "Do Not Disturb" settings. {.tip}
-
+> [!TIP]
+> Users should upgrade the TMC app, and be aware that popups in TMC may be suppressed by "Focus" or "Do Not Disturb" settings. 

@@ -39,7 +39,8 @@ Each has different specific user impacts as follows.
 
 Both length and allowed characters policy changes will take effect _on the next account password expiration_.
 
-**Note:** The minimal password length can be customized to a longer length than the maximum in the UI, for example to 12 or 14 characters. Enterprise subscribers should ask us if they would like to customize this. {.tip}
+> [!IMPORTANT]
+> The minimal password length can be customized to a longer length than the maximum in the UI, for example to 12 or 14 characters. Enterprise subscribers should ask us if they would like to customize this. 
 
 ## Password Expiration
 
@@ -47,7 +48,8 @@ Any password expiration timeout policy change will take effect immediately. PROd
 
 The user will be prompted to change their password, if today's date is past the calculated expiration date.
 
-**Note:** A password change can be forced by finding the user in the _All Users_ list, and setting the "Must Change Password" flag in that user's settings. PROdb will request the password change on next sign-in. {.tip}
+> [!TIP]
+> A password change can be forced by finding the user in the _All Users_ list, and setting the "Must Change Password" flag in that user's settings. PROdb will request the password change on next sign-in. 
 
 ## Password History
 
@@ -57,7 +59,8 @@ Selecting "Enforce password history" causes the system to disallow re-use of any
 
 A "Failed sign-ins" counter policy change will take effect on the next failed sign-in. The number of failed sign-ins in a row is counted, and if the number reaches the maximum, that account is locked. A successful sign-in or password reset clears the counter.
 
-**Note:** Locked user accounts can be unlocked from _All Users_. {.tip}
+> [!TIP]
+> Locked user accounts can be unlocked from _All Users_. 
 
 ## Session Timeout
 
@@ -77,7 +80,8 @@ The challenge is, when the "Session Timeout" is set to "Never" _and_ the user se
 
 Therefore, when changing policy from "Never" to some setting such as "8 hours", the best practice is to have users sign out so that the session cookie is re-created properly. 
 
-**Important:** Session cookie recreation _cannot_ be automatically performed from the system side. Have users sign out and back in when changing this policy. _Read more_ about PROdb cookies [on this page](/en/prodb/prodb-cookies). {.warning}
+> [!CAUTION]
+> Session cookie recreation _cannot_ be automatically performed from the system side. Have users sign out and back in when changing this policy. _Read more_ about PROdb cookies [on this page](/en/prodb/prodb-cookies). 
 
 <img src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="Figure: PROdb Security Controls Screen">
 

@@ -29,7 +29,8 @@ Outlookその他のメールソフトのアドレス一覧に追加すると、�
 
 M365管理画面の [security.microsoft.com/antispam](https://security.microsoft.com/antispam) では、信頼ドメインを追加することが出来ます。 
 
-マイクロソフトは、よく機能を保ちつつ、URLや名前を変更したりするので、ご注意が必要。{.tip}
+> [!IMPORTANT]
+> マイクロソフトは、よく機能を保ちつつ、URLや名前を変更したりするので、**ご注意**が必要。
 
 <img src="/assets/img/figure-m365-antispam.png" width="100%" alt="図: M365迷惑メール設定画面">
 
