@@ -2,7 +2,7 @@
 title: Bulk Email Error Codes
 date: Git Last Modified
 description: Error Codes from Bulk Email Systems
-order: 3
+order: 300
 category: Service Details
 lang: en
 series: en-bulkemail

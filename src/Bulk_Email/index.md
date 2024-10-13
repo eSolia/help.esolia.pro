@@ -4,5 +4,5 @@ date: Git Last Modified
 url: /Bulk-Email/
 id: bulkemailfolder
 lang: ja
-order: 3
+order: 300
 ---
