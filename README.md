@@ -7,6 +7,7 @@ This doc site is built and based on [lume](https://lume.land/), the static site 
 Thank you, [Óscar Otero](https://github.com/oscarotero), for lume and all your support on Discord. 🙏🏻
 
 ## Mechanics
+### Deno-related
 
 Upgrade:
 
@@ -18,4 +19,33 @@ Serve locally:
 
 ```
 > deno task lume --serve
+```
+
+### Markdown
+If you set `templateEngine: [vto, md]` in frontmatter, you can use components or call helpers: 
+
+```
+{{ comp.callout({
+  text: "Lorem ipsum", 
+  type: "warning"
+  })}}
+```
+
+With just the markdown engine you can use "alerts", which come from the alert plugin to markdown-it allowing [github-style alerts](https://github.com/orgs/community/discussions/16925):
+
+```
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
 ```
