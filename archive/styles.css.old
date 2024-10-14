@@ -1,3 +1,15 @@
+
+WAS IN root
+  --color-tip: var(--esolia-yellow-0-hsl);
+  --color-tip-foreground: var(--cyan-11-hsl);
+  --color-tip-1: var(--yellow-4-hsl);
+  --background-blend-mode: difference;
+  
+  --color-warning: var(--red-1-hsl);
+  --color-warning-foreground: var(--red-11-hsl);
+  --color-warning-1: var(--red-5-hsl);
+
+
 .tip {
   font: var(--text-caption);
   letter-spacing: 0;
