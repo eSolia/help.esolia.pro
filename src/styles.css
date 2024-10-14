@@ -6,8 +6,9 @@
 @import "css/updates.css";
 
 /* Local Custom components */
-@import "css/fonts.css"; 
-/* @import "css/overrides.css"; */
+@import "css/fonts.css";
+
+@import "css/overrides.css";
 @import "css/custom.css";
 
 /* Wiki original structure */

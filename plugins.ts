@@ -1,4 +1,5 @@
-import postcss from "lume/plugins/postcss.ts"; //
+// import postcss from "lume/plugins/postcss.ts"; //
+import lightningCss from "lume/plugins/lightningcss.ts"; //
 import nesting from "npm:postcss-nesting";
 import pagefind from "lume/plugins/pagefind.ts"; //
 import resolveUrls from "lume/plugins/resolve_urls.ts"; //
@@ -69,9 +70,10 @@ export default function (options: Options = {}) {
     .use(sitemap())
     .use(toc())
     .use(footnotes())
-    .use(postcss({
-      plugins: [nesting()],
-    }))
+    //.use(postcss({
+    //  plugins: [nesting()],
+    //}))
+    .use(lightningCss())
     .use(pagefind())
     .use(favicon(options.favicon))
     .use(prism())
