@@ -2,12 +2,20 @@
   {{> const page = search.page("url=/") }}
 
   {{ if page }}
-    {{ if page.logo }}
-      <a class="menu-logo" href="{{ page.url }}"><img src="{{ page.logo }}" alt="{{ page.title || slug }}"></a>
+    {{ if page.logo_dark }}
+      <a class="menu-logo" href="{{ page.url }}">
+        <picture>
+          <source srcset="{{ page.logo_dark }}" media="(prefers-color-scheme: dark)">
+          <img src="{{ page.logo }}" alt="{{ page.title || slug }}">
+        </picture>
+      </a>
+    
     {{ else }}
       <a class="menu-highlight" href="{{ page.url }}">{{ page.title || slug }}</a>
     {{ /if }}
   {{ /if }}
+
+
 
   {{ if alternates?.length > 1 }}  
   <ul class="menu-languages">
