@@ -1,4 +1,5 @@
 import postcss from "lume/plugins/postcss.ts"; //
+import nesting from "npm:postcss-nesting";
 import pagefind from "lume/plugins/pagefind.ts"; //
 import resolveUrls from "lume/plugins/resolve_urls.ts"; //
 import nav from "lume/plugins/nav.ts"; //
@@ -68,7 +69,9 @@ export default function (options: Options = {}) {
     .use(sitemap())
     .use(toc())
     .use(footnotes())
-    .use(postcss())
+    .use(postcss({
+      plugins: [nesting()],
+    }))
     .use(pagefind())
     .use(favicon(options.favicon))
     .use(prism())
