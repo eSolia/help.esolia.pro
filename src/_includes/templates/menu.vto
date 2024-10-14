@@ -6,6 +6,7 @@
       <a class="menu-logo" href="{{ page.url }}">
         <picture>
           <source srcset="{{ page.logo_dark }}" media="(prefers-color-scheme: dark)">
+          <source srcset="{{ page.logo }}" media="(prefers-color-scheme: light)">
           <img src="{{ page.logo }}" alt="{{ page.title || slug }}">
         </picture>
       </a>
