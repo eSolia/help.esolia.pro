@@ -1,7 +1,7 @@
 {
   "importMap": "./import_map.json",
   "tasks": {
-    "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
+    "lume": "export TZ='Asia/Tokyo' && echo \"import 'lume/cli.ts'\" | deno run -A -", // Export TZ to set the timezone
     "build": "deno task lume",
     "serve": "deno task lume -s",
     "update-deps": "deno run -A 'https://deno.land/x/nudd@v0.2.5/cli.ts' update deno.json",
@@ -13,3 +13,4 @@
     ]
   }
 }
+
