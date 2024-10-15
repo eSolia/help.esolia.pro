@@ -1,7 +1,7 @@
 footer: true
 repo: 
-  - url: https://github.com/esolia/help.esolia.pro
-  - path: /src/
+  url: https://github.com/esolia/help.esolia.pro
+  path: /src
 menu_links: 
   - text: <strong>eSolia Inc.</strong>
     href: https://esolia.com
