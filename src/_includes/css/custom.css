@@ -1,4 +1,12 @@
 /* eSolia CUSTOM  */
+:root {
+  --logo: url(/assets/logo/logo_horiz_darkblue_bgtransparent_web.png) no-repeat;
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --logo: url(/assets/logo/logo_horiz_white_bgtransparent_web.png) no-repeat;
+}
+
 main img  {
   border: 1px solid var(--code-background-selection);
   border-radius: var(--border-radius);

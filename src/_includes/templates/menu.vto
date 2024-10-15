@@ -1,22 +1,14 @@
 <nav class="menu-container">
   {{> const page = search.page("url=/") }}
 
+  {{# Customized to put logo in main _data.yml not in page #}}
   {{ if page }}
-    {{ if page.logo_dark }}
-      <a class="menu-logo" href="{{ page.url }}">
-        <picture>
-          <source srcset="{{ page.logo_dark }}" media="(prefers-color-scheme: dark)">
-          <source srcset="{{ page.logo }}" media="(prefers-color-scheme: light)">
-          <img src="{{ page.logo }}" alt="{{ page.title || slug }}">
-        </picture>
-      </a>
-    
+    {{ if page.logo }}
+      <a class="menu-logo" href="{{ page.url }}"><img src="{{ page.logo }}" alt="{{ page.title || slug }}"></a>
     {{ else }}
       <a class="menu-highlight" href="{{ page.url }}">{{ page.title || slug }}</a>
     {{ /if }}
   {{ /if }}
-
-
 
   {{ if alternates?.length > 1 }}  
   <ul class="menu-languages">

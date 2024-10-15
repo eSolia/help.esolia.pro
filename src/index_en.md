@@ -8,8 +8,7 @@ series: en-home
 url: /
 hideheader: true
 id: home
-logo: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
-logo_dark: /assets/logo/logo_horiz_white_bgtransparent_web.png
+logo: /assets/logo/logo_horiz_darkblue_bgtransparent.svg
 ---
 
 ## Welcome
