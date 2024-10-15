@@ -88,10 +88,10 @@
         {{ /if }}
       </main>
 
-      {{ if it.edit != false && it.repo }}
+      {{ if footer }}
       <footer class="body-footer">
         <time timestamp="{{ date |> date("DATETIME") }}">{{ site.lastup }}: {{ date |> date("HUMAN_DATETIME", [lang]) }}</time>
-        {{ if it.repo }}
+        {{ if it.edit != false && repo }}
           &nbsp;—&nbsp;
           <a href="{{ repo.url }}/edit/main{{ repo.path }}{{ page.src.path }}{{ page.src.ext }}">{{ site.editme }}</a>
         {{ /if }}
