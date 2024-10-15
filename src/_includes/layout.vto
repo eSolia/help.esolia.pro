@@ -38,7 +38,7 @@
 
        {{ if toc?.length }}
       <nav class="toc">
-        <h2>On this page</h2>
+        <h2>{{ site.tocheader }}</h2>
         <ol>
           {{ for item of toc }}
           <li>
@@ -93,7 +93,7 @@
         <time timestamp="{{ date |> date("DATETIME") }}">{{ site.lastup }}: {{ date |> date("HUMAN_DATETIME", [lang]) }}</time>
         {{ if it.repo }}
           &nbsp;—&nbsp;
-          <a href="{{ repo.url }}/edit/main{{ repo.path }}{{ page.src.path }}{{ page.src.ext }}">Edit this page</a>
+          <a href="{{ repo.url }}/edit/main{{ repo.path }}{{ page.src.path }}{{ page.src.ext }}">{{ site.editme }}</a>
         {{ /if }}
       </footer>
       {{ /if }}

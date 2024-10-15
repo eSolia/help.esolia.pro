@@ -1,6 +1,6 @@
 repo: 
   - url: https://github.com/esolia/help.esolia.pro
-  - path: /edit/main/src/
+  - path: /src/
 menu_links: 
   - text: <strong>eSolia Inc.</strong>
     href: https://esolia.com
@@ -27,11 +27,15 @@ site:
     lname: "日本語"
     sitename: "イソリア ヘルプ"
     lastup: "最終更新"
+    editme: "このページを編集"
+    tocheader: "当ページの目次"
 en: 
     site: 
         lname: "English"
         sitename: "eSolia Help"
         lastup: "Last updated"
+        editme: "Edit this page"
+        tocheader: "On this Page"
 i18n:
     foo.ja: "バー"
     foo.en: "Bar"
