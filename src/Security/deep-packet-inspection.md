@@ -4,8 +4,8 @@ date: Git Last Modified
 description: ファイアウォールにて、ディープ・パケット・インスペクションを有効にする利点
 order: 500
 category: サービス詳細
-lang: en
-series: en-security
+lang: ja
+series: ja-security
 url: /Security/deep-packet-inspection/
 id: deeppacketinspection
 tags:
