@@ -13,6 +13,8 @@ tags:
   - DPI
 ---
 
+# SSL ディープ・パケット・インスペクション
+
 Using Fortinet Fortigate as an example, it is good practice to enable DPI "Deep Packet Inspection" in your policies. What this does is, when a user makes a connection to a site via HTTPS, the Fortigate will replace the SSL certificate of the site with its own, and inspect the traffic that is flowing through, for malware or other problems. Google estimates 90% of traffic is encrypted, so this is important to get full protection.
 
 ## 主な利点
