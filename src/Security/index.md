@@ -4,5 +4,5 @@ date: Git Last Modified
 url: /security/
 id: securityfolder
 lang: ja
-order: 500
+order: 400
 ---

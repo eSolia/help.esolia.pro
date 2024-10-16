@@ -13,5 +13,5 @@ logo: /assets/logo/logo_horiz_darkblue_bgtransparent.svg
 
 ## Welcome
 
-Thank you for stopping by. This site contains eSolia's help pages with topical information. Use the above search function, or look at the navigation menu to find a page to view. 
+Thank you for stopping by. This site contains eSolia's help pages with topical information. Use the above search function, or browse the navigation menu to find a page to view. Click the carets `>` to open the menu.
 
