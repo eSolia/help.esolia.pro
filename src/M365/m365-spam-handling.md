@@ -2,7 +2,7 @@
 title: M365の迷惑メール処理
 date: Git Last Modified
 description: M365で迷惑メールを処理する方法
-order: 20
+order: 200
 category: サービス詳細
 lang: ja
 series: ja-m365

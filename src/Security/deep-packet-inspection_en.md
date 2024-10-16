@@ -2,7 +2,7 @@
 title: Deep Packet Inspection
 date: Git Last Modified
 description: Benefits of enabling deep packet SSL inspection on your firewall 
-order: 500
+order: 400
 category: Service Details
 lang: en
 series: en-security

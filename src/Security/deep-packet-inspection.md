@@ -2,7 +2,7 @@
 title: ディープ・パケット・インスペクション
 date: Git Last Modified
 description: ファイアウォールにて、ディープ・パケット・インスペクションを有効にする利点
-order: 500
+order: 400
 category: サービス詳細
 lang: ja
 series: ja-security

@@ -4,5 +4,5 @@ date: Git Last Modified
 url: /bousai/
 id: bousaifolder
 lang: ja
-order: 400
+order: 450
 ---
