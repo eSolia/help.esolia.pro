@@ -6,7 +6,7 @@ order: 600
 category: Service Details
 lang: en
 series: en-prodb
-url: /PROdb/prodb-security-2FA/
+url: /prodb/prodb-security-2FA/
 id: prodbsec2fa
 tags:
   - PROdb

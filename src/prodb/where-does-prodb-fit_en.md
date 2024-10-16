@@ -6,7 +6,7 @@ order: 100
 category: Service Details
 lang: en
 series: en-prodb
-url: /PROdb/where-does-prodb-fit/
+url: /prodb/where-does-prodb-fit/
 id: prodbfit
 tags:
   - PROdb

@@ -1,7 +1,7 @@
 ---
 title: セキュリティ
 date: Git Last Modified
-url: /Security/
+url: /security/
 id: securityfolder
 lang: ja
 order: 500

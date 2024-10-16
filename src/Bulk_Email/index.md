@@ -1,7 +1,7 @@
 ---
 title: バルクメール
 date: Git Last Modified
-url: /Bulk-Email/
+url: /bulk-email/
 id: bulkemailfolder
 lang: ja
 order: 300

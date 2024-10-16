@@ -8,7 +8,7 @@ metas:
   image: /logo/logo_horiz_darkblue_bgtransparent_web.png
 lang: en
 series: en-prodb
-url: /PROdb/prodb-application-architecture/
+url: /prodb/prodb-application-architecture/
 id: prodbapparchi
 tags:
   - PROdb

@@ -6,7 +6,7 @@ order: 300
 category: サービス詳細
 lang: ja
 series: ja-prodb
-url: /PROdb/prodb-application-architecture/
+url: /prodb/prodb-application-architecture/
 id: prodbapparchi
 tags:
   - PROdb

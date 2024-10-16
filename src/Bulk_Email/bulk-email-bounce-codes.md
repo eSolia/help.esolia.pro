@@ -6,7 +6,7 @@ order: 300
 category: サービス詳細
 lang: ja
 series: ja-bulkemail
-url: /Bulk-Email/bulk-email-bounce-codes/
+url: /bulk-email/bulk-email-bounce-codes/
 id: bulkbouncecodes
 tags:
   - バルクメール

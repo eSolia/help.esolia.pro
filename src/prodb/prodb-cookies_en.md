@@ -6,7 +6,7 @@ order: 500
 category: Service Details
 lang: en
 series: en-prodb
-url: /PROdb/prodb-cookies/
+url: /prodb/prodb-cookies/
 id: prodbcookies
 tags:
   - PROdb

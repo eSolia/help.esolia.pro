@@ -6,7 +6,7 @@ order: 500
 category: Service Details
 lang: en
 series: en-security
-url: /Security/deep-packet-inspection/
+url: /security/deep-packet-inspection/
 id: deeppacketinspection
 tags:
   - Firewall

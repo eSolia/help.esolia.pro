@@ -6,7 +6,7 @@ order: 500
 category: サービス詳細
 lang: ja
 series: ja-prodb
-url: /PROdb/prodb-cookies/
+url: /prodb/prodb-cookies/
 id: prodbcookies
 tags:
   - PROdb

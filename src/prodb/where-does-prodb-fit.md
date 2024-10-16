@@ -6,7 +6,7 @@ order: 100
 category: サービス詳細
 lang: ja
 series: ja-prodb
-url: /PROdb/where-does-prodb-fit/
+url: /prodb/where-does-prodb-fit/
 id: prodbfit
 tags:
   - PROdb

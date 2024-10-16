@@ -6,7 +6,7 @@ order: 500
 category: サービス詳細
 lang: ja
 series: ja-security
-url: /Security/deep-packet-inspection/
+url: /security/deep-packet-inspection/
 id: deeppacketinspection
 tags:
   - ファイアウォール

@@ -6,7 +6,7 @@ order: 400
 category: Service Details
 lang: en
 series: en-prodb
-url: /PROdb/prodb-security-controls/
+url: /prodb/prodb-security-controls/
 id: prodbseccon
 tags:
   - PROdb

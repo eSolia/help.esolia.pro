@@ -6,7 +6,7 @@ order: 600
 category: サービス詳細
 lang: ja
 series: ja-prodb
-url: /PROdb/prodb-security-2FA/
+url: /prodb/prodb-security-2FA/
 id: prodbsec2fa
 tags:
   - PROdb

@@ -6,7 +6,7 @@ order: 20
 category: サービス詳細
 lang: ja
 series: ja-m365
-url: /M365/spam-handling/
+url: /m365/spam-handling/
 id: m365spam
 tags:
   - M365
