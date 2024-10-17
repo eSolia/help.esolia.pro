@@ -27,6 +27,7 @@ import attributes from "lume/plugins/attributes.ts";
 import filterPages from "lume/plugins/filter_pages.ts";
 import sri from "lume/plugins/sri.ts";
 import "lume/types.ts"; //
+import autoTrim from "vento/plugins/auto_trim.ts";
 
 // import cache_busting from "https://raw.githubusercontent.com/lumeland/experimental-plugins/c8778bfbf480f57a2357ab94bc22290b8bf11d12/cache_busting/mod.ts";
 export interface Options {
@@ -89,6 +90,7 @@ export default function (options: Options = {}) {
       name: "icon",
     }))
     .use(sri())
+    .use(autoTrim())
     .use(filterPages({
       fn: (page) => page.data.ignored !== true,
     }))
