@@ -1,0 +1,9 @@
+export default function* (Lume.Data) {
+  yield {
+      url: `/it.json`,
+      content: Lume.Data,
+    };
+    return;
+
+}
+
