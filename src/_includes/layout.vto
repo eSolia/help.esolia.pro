@@ -62,19 +62,19 @@
 
       <main class="main">
         {{ include "templates/breadcrumb.vto" }}
+        <article>
+          <div class="body" {{ if it.content && it.pagefind }}data-pagefind-body{{ /if }}>
+            {{ if !it.title }}
+              <h1>{{ it.basename }}</h1>
+            {{ /if }}
 
-        <div class="body" {{ if it.content && it.pagefind }}data-pagefind-body{{ /if }}>
-          {{ if !it.title }}
-            <h1>{{ it.basename }}</h1>
-          {{ /if }}
-
-          {{ if content }}
-            {{ content }}
-          {{ else }}
-            <p class="emptyState">The page <code>{{ url }}</code> is empty</p>
-          {{ /if }}
-        </div>
-
+            {{ if content }}
+              {{ content }}
+            {{ else }}
+              <p class="emptyState">The page <code>{{ url }}</code> is empty</p>
+            {{ /if }}
+          </div>
+        </article>
         {{ if it.footnotes?.length }}
         <aside role="note" class="footnotes">
           <dl>
