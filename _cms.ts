@@ -38,7 +38,7 @@ cms.storage(
 // Configure an upload folder
 cms.upload("media", "gh:src/assets/img");
 
-// Site collections
+// PROdb collection
 cms.collection(
   "prodb",
   "gh:src/prodb/*.md",
@@ -64,6 +64,10 @@ cms.collection(
     "show_toc: checkbox",
     "content: markdown",
   ],
+);
+
+// Security collection
+cms.collection(
   "security",
   "gh:src/security/*.md",
   [
@@ -89,7 +93,5 @@ cms.collection(
     "content: markdown",
   ],
 );
-
-
 
 export default cms;
