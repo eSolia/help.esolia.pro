@@ -1,15 +1,16 @@
 ---
-title: 防災
+title: M365
 date: Git Last Modified
-url: /bousai/
-id: bousaifolder
+url: /m365/
+id: m365folder
 lang: ja
-order: 450
+order: 200
+templateEngine: [vto, md]
 ---
 
 # インデックス
 <ul class="menu">
-  {{ for item of nav.menu("/kb/", "lang=ja", "order=asc").children }}
+  {{ for item of nav.menu("/m365/", "lang=ja", "order=asc").children }}
     <li>
       {{ include "templates/menu_item.vto" { item } }}
     </li>
