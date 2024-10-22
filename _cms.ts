@@ -41,7 +41,7 @@ cms.upload("media", "gh:src/assets/img");
 // PROdb collection
 cms.collection(
   "prodb",
-  "gh:prodb/*.md",
+  "gh:/src/prodb/*.md",
   [
     "title: text",
     {
