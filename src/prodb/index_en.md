@@ -5,10 +5,16 @@ url: /prodb/
 id: prodbfolder
 lang: en
 order: 100
-templateEngine: [vto, md]
+templateEngine:
+  - vto
+  - md
+summary: Added of subpages
+image: ''
+tags: []
+draft: false
+show_toc: false
 ---
-
-# Index
+# Index of Subpages
 <ul class="menu">
   {{ for item of nav.menu("/en/prodb", "lang=en", "order=asc").children }}
     <li>
@@ -16,4 +22,3 @@ templateEngine: [vto, md]
     </li>
   {{ /for }}
 </ul>
-
