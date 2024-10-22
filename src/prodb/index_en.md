@@ -14,7 +14,7 @@ tags: []
 draft: false
 show_toc: false
 ---
-# Index of Subpages
+# Section Index
 <ul class="menu">
   {{ for item of nav.menu("/en/prodb", "lang=en", "order=asc").children }}
     <li>

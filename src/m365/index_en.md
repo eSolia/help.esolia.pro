@@ -8,7 +8,7 @@ order: 200
 templateEngine: [vto, md]
 ---
 
-# Index of Subpages
+# Section Index
 <ul class="menu">
   {{ for item of nav.menu("/en/m365", "lang=en", "order=asc").children }}
     <li>
