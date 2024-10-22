@@ -36,12 +36,12 @@ cms.storage(
 // cms.storage("gh", "/");
 
 // Configure an upload folder
-cms.upload("media", "gh:assets/img");
+cms.upload("media", "gh:src/assets/img");
 
 // Configure a collection
 cms.collection(
   "posts",
-  "gh:prodb",
+  "gh:src/prodb",
   [
     "title: text",
     {
