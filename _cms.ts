@@ -1,0 +1,69 @@
+import lumeCMS from "lume/cms/mod.ts";
+import { Octokit } from "npm:octokit";
+import GitHubStorage from "cms/storage/github.ts";
+
+const username = Deno.env.get("USERNAME1")!;
+const password = Deno.env.get("PASSWORD1")!;
+
+const cms = lumeCMS({
+  site: {
+    name: "eSolia Help CMS",
+    description: "Edit the content of the eSolia Help site",
+    url: "https://help.esolia.pro",
+    body: `
+    <p>This is a bilingual site, but every page does not need a translation. Just be sure the id is the same.</p>
+    `,
+  },
+  auth: {
+    method: "basic",
+    users: {
+      // foo: "bar",
+      [username]: password,
+    },
+  },
+});
+
+// Register GitHub storage
+cms.storage(
+  "gh",
+  new GitHubStorage({
+    client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
+    owner: "eSolia",
+    repo: "help.esolia.pro",
+  }),
+);
+// Register local storage
+// cms.storage("gh", "/");
+
+// Configure an upload folder
+cms.upload("media", "gh:assets/img");
+
+// Configure a collection
+cms.collection(
+  "posts",
+  "src:prodb",
+  [
+    "title: text",
+    {
+      name: "summary",
+      type: "textarea",
+      attributes: {
+        required: true,
+      },
+    },
+    {
+      name: "image",
+      type: "file",
+      uploads: "media",
+      attributes: {
+        accept: "image/*",
+      },
+    },
+    "tags: list",
+    "draft: checkbox",
+    "show_toc: checkbox",
+    "content: markdown",
+  ],
+);
+
+export default cms;
