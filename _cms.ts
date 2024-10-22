@@ -69,7 +69,7 @@ cms.collection(
 // Security collection
 cms.collection(
   "security",
-  "gh:src/security/*.md",
+  "gh:/src/security/*.md",
   [
     "title: text",
     {
