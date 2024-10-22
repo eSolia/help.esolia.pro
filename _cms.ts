@@ -41,7 +41,7 @@ cms.upload("media", "gh:assets/img");
 // Configure a collection
 cms.collection(
   "posts",
-  "src:prodb",
+  "gh:prodb",
   [
     "title: text",
     {
