@@ -26,7 +26,7 @@ const cms = lumeCMS({
 // Register GitHub storage
 cms.storage(
   "gh",
-  new GitHubStorage({
+  new GitHub({
     client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
     owner: "eSolia",
     repo: "help.esolia.pro",
