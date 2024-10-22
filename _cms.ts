@@ -40,7 +40,7 @@ cms.upload("media", "gh:src/assets/img");
 
 // Configure a collection
 cms.collection(
-  "posts",
+  "kb",
   "gh:src/kb",
   [
     "title: text",
