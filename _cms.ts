@@ -40,8 +40,8 @@ cms.upload("media", "gh:src/assets/img");
 
 // Configure a collection
 cms.collection(
-  "pages",
-  "gh:src/prodb/",
+  "prodb",
+  "gh:src/prodb/*.md",
   [
     "title: text",
     {
