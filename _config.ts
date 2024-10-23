@@ -3,6 +3,7 @@ import wiki from "wiki/mod.ts";
 
 const site = lume({
   src: "./src",
+  location: new URL("https://help.esolia.pro"),
 });
 site.use(wiki({
   languages: ["ja", "en"],
