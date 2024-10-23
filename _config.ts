@@ -29,7 +29,9 @@ site.use(date(
 site.use(metas());
 site.use(sitemap());
 site.use(attributes());
-site.use(filterPages());
+site.use(filterPages({
+  fn: (page) => page.data.ignored !== true,
+}))
 site.use(sri());
 site.use(autoTrim());
 site.use(terser());
