@@ -93,6 +93,8 @@ cms.collection(
     {
       name: "id",
       type: "text",
+      label: "Unique ID for a Translation Pair",
+      description: "Must be the same for each language version of the same page",
       attributes: {
         required: true,
       },
