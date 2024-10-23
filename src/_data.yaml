@@ -13,6 +13,7 @@ openGraphLayout: _includes/og_images.jsx
 metas:
     title: =title
     description: =description
+    date: =date
     twitter: "@esolia_inc"
     image: /logo/logo_horiz_darkblue_bgtransparent_web.png
     color: "#141b1f"
