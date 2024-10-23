@@ -1,6 +1,5 @@
 ---
 title: バルクメールのエラーコード
-date: Git Last Modified
 description: バルクメールシステムで利用しているエラーコード
 order: 300
 category: サービス詳細

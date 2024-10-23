@@ -1,6 +1,5 @@
 ---
 title: 防災リンク
-date: Git Last Modified
 description: 参考文献（各行政機関の情報リスト）
 order: 450
 category: 情報共有

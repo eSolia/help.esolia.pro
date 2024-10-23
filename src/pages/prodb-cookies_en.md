@@ -1,6 +1,5 @@
 ---
 title: PROdb Cookies
-date: Git Last Modified
 description: What cookies are produced by the SaaS cloud database "PROdb"
 order: 500
 category: Service Details

@@ -1,6 +1,5 @@
 ---
 title: PROdbとは？
-date: Git Last Modified
 description: 「PROdb」と言う一つのイソリア ブランドの意味・位置づけ
 order: 100
 category: サービス詳細

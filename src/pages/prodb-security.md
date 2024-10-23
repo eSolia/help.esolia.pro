@@ -1,6 +1,5 @@
 ---
 title: PROdb セキュリティ
-date: Git Last Modified
 description: 信頼できるSaaSクラウド型データーベース「PROdb」を色んな面のセキュリティのご紹介です。
 order: 200
 category: サービス詳細

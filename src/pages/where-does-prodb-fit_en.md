@@ -1,6 +1,5 @@
 ---
 title: What's PROdb?
-date: Git Last Modified
 description: What does eSolia brand "PROdb" stand for and what is it?
 order: 100
 category: Service Details

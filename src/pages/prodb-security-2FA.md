@@ -1,6 +1,5 @@
 ---
 title: PROdb 二要素認証（2FA）セキュリティ設定変更
-date: Git Last Modified
 description: 二要素認証（2FA）設定
 order: 600
 category: サービス詳細

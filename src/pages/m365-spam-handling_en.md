@@ -1,6 +1,5 @@
 ---
 title: M365 Spam Handling
-date: Git Last Modified
 description: Tips for setting spam handling in M365
 order: 200
 category: Service Details

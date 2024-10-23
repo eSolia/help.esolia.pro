@@ -1,6 +1,5 @@
 ---
 title: PROdb セキュリティ制御変更
-date: Git Last Modified
 description: パスワード、タイムアウト、セッション期限など規定設定
 order: 400
 category: サービス詳細

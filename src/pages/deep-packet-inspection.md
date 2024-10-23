@@ -1,6 +1,5 @@
 ---
 title: ディープ・パケット・インスペクション
-date: Git Last Modified
 description: ファイアウォールにて、ディープ・パケット・インスペクションを有効にする利点
 order: 400
 category: サービス詳細
