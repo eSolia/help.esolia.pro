@@ -85,7 +85,7 @@ cms.collection(
       name: "show_toc",
       type: "checkbox",
       label: "Show TOC on Page",
-      description: "Checked causes the TOC to show for the page",
+      description: "Checked causes the table of contents to show for the page",
       attributes: {
         required: false,
         value: true,
