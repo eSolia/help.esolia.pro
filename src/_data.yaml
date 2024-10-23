@@ -11,37 +11,36 @@ menu_links:
     icon: github-logo
 openGraphLayout: _includes/og_images.jsx
 metas:
-  title: =title
-  description: =description
+  title: "=title"
+  description: "=description"
   twitter: "@esolia_inc"
   "twitter:label1": Author
-  "twitter:data1": =site.author
+  "twitter:data1": "=site.author"
   image: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
   color: "#141b1f"
   icon: /assets/img/apple-touch-icon.png
   generator: true
-  site: =site.sitename
-main_menu: docs
+  site: "=site.sitename"
 extra_head: |
   <!-- Fathom Analytics -->
     <script src="https://cdn.usefathom.com/script.js" data-site="UGHNYDWT" defer></script>
   <!-- / Fathom -->
 lang: [ja, en]
 site:
-    lname: "日本語"
-    sitename: "イソリア ヘルプ"
-    lastup: "最終更新"
-    editme: "このページを編集"
-    tocheader: "当ページの目次"
-    author: "株式会社イソリア"
+  lname: "日本語"
+  sitename: "イソリア ヘルプ"
+  lastup: "最終更新"
+  editme: "このページを編集"
+  tocheader: "当ページの目次"
+  author: "株式会社イソリア"
 en: 
-    site: 
-        lname: "English"
-        sitename: "eSolia Help"
-        lastup: "Last updated"
-        editme: "Edit this page"
-        tocheader: "On this Page"
-        author: "eSolia Inc."
+  site: 
+      lname: "English"
+      sitename: "eSolia Help"
+      lastup: "Last updated"
+      editme: "Edit this page"
+      tocheader: "On this Page"
+      author: "eSolia Inc."
 i18n:
     foo.ja: "バー"
     foo.en: "Bar"
