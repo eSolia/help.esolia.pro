@@ -76,7 +76,7 @@ cms.collection(
         const site = data.site;
         const allTags = site.search.values("tags");
         field.options = allTags;
-      }
+      },
     },
     "draft: checkbox",
     "show_toc: checkbox",
