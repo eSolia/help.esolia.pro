@@ -43,10 +43,20 @@ cms.collection(
   "pages",
   "gh:/src/pages/*.md",
   [
-    "title: text",
     {
-      name: "summary",
+      name: "title",
+      type: "text",
+      label: "Title of the Page",
+      description: "Visible in browser tab and page header",
+      attributes: {
+        required: true,
+      },
+    },
+    {
+      name: "description",
       type: "textarea",
+      label: "Description for the Page",
+      description: "Visible in search engine results",
       attributes: {
         required: true,
       },
@@ -62,36 +72,34 @@ cms.collection(
     "tags: list",
     "draft: checkbox",
     "show_toc: checkbox",
+    "order: number",
+    {
+      name: "lang",
+      type: "select",
+      attributes: {
+        required: true,
+      },
+      options: [
+        {
+          label: "日本語",
+          value: "ja"
+        },
+        {
+          label: "English",
+          value: "en"
+        },
+      ],
+    },
+    {
+      name: "id",
+      type: "text",
+      attributes: {
+        required: true,
+      },
+    },
     "content: markdown",
   ],
 );
 
-// Security collection
-// cms.collection(
-//   "security",
-//   "gh:/src/security/*.md",
-//   [
-//     "title: text",
-//     {
-//       name: "summary",
-//       type: "textarea",
-//       attributes: {
-//         required: true,
-//       },
-//     },
-//     {
-//       name: "image",
-//       type: "file",
-//       uploads: "media",
-//       attributes: {
-//         accept: "image/*",
-//       },
-//     },
-//     "tags: list",
-//     "draft: checkbox",
-//     "show_toc: checkbox",
-//     "content: markdown",
-//   ],
-// );
 
 export default cms;
