@@ -74,6 +74,9 @@ cms.collection(
       type: "list",
       label: "Tags",
       description: "Tags to categorize the page",
+      init(field) {
+        field.options = ["tag1", "tag2", "tag3"];
+      },
       // init(field: any, { data }) {
       //   const site = data.site;
       //   const allTags = site.search.values("tags");
