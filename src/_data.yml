@@ -9,7 +9,7 @@ menu_links:
   - text: GitHub repository
     href: https://github.com/eSolia/help.esolia.pro
     icon: github-logo
-openGraphLayout: _includes/og_images.jsx
+# openGraphLayout: _includes/og_images.jsx
 metas:
   title: "=title"
   description: "=description"

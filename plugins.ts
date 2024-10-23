@@ -20,7 +20,7 @@ import { alert } from "npm:@mdit/plugin-alert@0.13.1"; //
 import multilanguage from "lume/plugins/multilanguage.ts"; //
 
 // import codeHighlight from "lume/plugins/code_highlight.ts";
-import ogImages from "lume/plugins/og_images.ts"; //
+// import ogImages from "lume/plugins/og_images.ts"; //
 import metas from "lume/plugins/metas.ts"; 
 import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
@@ -67,7 +67,7 @@ export default function (options: Options = {}) {
     .use(attributes())
     .use(nav())
     .use(title())
-    .use(ogImages())
+    // .use(ogImages())
     .use(metas())
     .use(sitemap())
     .use(toc())
