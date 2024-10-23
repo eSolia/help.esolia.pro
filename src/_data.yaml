@@ -14,10 +14,13 @@ metas:
     title: =title
     description: =description
     twitter: "@esolia_inc"
-    image: /logo/logo_horiz_darkblue_bgtransparent_web.png
+    "twitter:label1": Author
+    "twitter:data1": =site.author
+    image: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
     color: "#141b1f"
-    icon: /img/apple-touch-icon.png
+    icon: /assets/img/apple-touch-icon.png
     generator: true
+    site: =site.sitename
 main_menu: docs
 extra_head: |
   <!-- Fathom Analytics -->
@@ -30,6 +33,7 @@ site:
     lastup: "最終更新"
     editme: "このページを編集"
     tocheader: "当ページの目次"
+    author: "株式会社イソリア"
 en: 
     site: 
         lname: "English"
@@ -37,6 +41,7 @@ en:
         lastup: "Last updated"
         editme: "Edit this page"
         tocheader: "On this Page"
+        author: "eSolia Inc."
 i18n:
     foo.ja: "バー"
     foo.en: "Bar"
