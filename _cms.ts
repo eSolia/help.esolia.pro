@@ -74,6 +74,15 @@ cms.collection(
     "show_toc: checkbox",
     "order: number",
     {
+      name: "order",
+      type: "number",
+      label: "Order",
+      description: "Order in which the page will appear in the menu",
+      attributes: {
+        required: true,
+      },
+    },
+    {
       name: "lang",
       type: "select",
       label: "Language",
