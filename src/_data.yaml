@@ -11,16 +11,16 @@ menu_links:
     icon: github-logo
 openGraphLayout: _includes/og_images.jsx
 metas:
-    title: =title
-    description: =description
-    twitter: "@esolia_inc"
-    "twitter:label1": Author
-    "twitter:data1": =site.author
-    image: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
-    color: "#141b1f"
-    icon: /assets/img/apple-touch-icon.png
-    generator: true
-    site: =site.sitename
+  title: =title
+  description: =description
+  twitter: "@esolia_inc"
+  "twitter:label1": Author
+  "twitter:data1": =site.author
+  image: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
+  color: "#141b1f"
+  icon: /assets/img/apple-touch-icon.png
+  generator: true
+  site: =site.sitename
 main_menu: docs
 extra_head: |
   <!-- Fathom Analytics -->
