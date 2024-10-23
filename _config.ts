@@ -33,7 +33,7 @@ site.use(filterPages({
   fn: (page) => page.data.ignored !== true,
 }))
 site.use(sri());
-site.use(autoTrim());
+env.use(autoTrim());
 site.use(terser());
 
 site.copy("assets");
