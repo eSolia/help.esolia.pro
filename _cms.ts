@@ -74,11 +74,11 @@ cms.collection(
       type: "list",
       label: "Tags",
       description: "Tags to categorize the page",
-      init(field: any, { data }) {
-        const site = data.site;
-        const allTags = site.search.values("tags");
-        field.options = allTags;
-      },
+      // init(field: any, { data }) {
+      //   const site = data.site;
+      //   const allTags = site.search.values("tags");
+      //   field.options = allTags;
+      // },
     },
     "draft: checkbox",
     "show_toc: checkbox",
