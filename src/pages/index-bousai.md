@@ -10,7 +10,7 @@ templateEngine: [vto, md]
 
 # インデックス
 <ul class="menu">
-  {{ for item of nav.menu("/pages/", "防災", "lang=ja", "order=asc").children }}
+  {{ for item of nav.menu("/pages/", "lang=ja", "order=asc").children }}
     <li>
       {{ include "templates/menu_item.vto" { item } }}
     </li>
