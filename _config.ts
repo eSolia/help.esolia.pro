@@ -12,6 +12,7 @@ import filterPages from "lume/plugins/filter_pages.ts";
 import sri from "lume/plugins/sri.ts";
 // import autoTrim from "vento/plugins/auto_trim.ts";
 import terser from "lume/plugins/terser.ts";
+import lightningCss from "lume/plugins/lightning_css.ts";
 
 const site = lume({
   src: "./src",
@@ -35,6 +36,7 @@ site.use(filterPages({
 site.use(sri());
 // env.use(autoTrim());
 site.use(terser());
+site.use(lightningCss());
 
 site.copy("assets");
 site.copy("menu.js");
