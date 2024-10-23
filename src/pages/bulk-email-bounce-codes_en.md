@@ -13,7 +13,7 @@ tags:
 image: ''
 draft: false
 ---
-The following error codes are from the bulk email systems we use to send newsletters. 
+The following error codes are from the bulk email systems eSolia uses to send newsletters. 
 
 ### Postmark App Bounce Error Codes
 
