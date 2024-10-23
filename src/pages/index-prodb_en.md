@@ -8,7 +8,6 @@ order: 100
 templateEngine:
   - vto
   - md
-summary: Added of subpages
 image: ''
 tags: []
 draft: false
