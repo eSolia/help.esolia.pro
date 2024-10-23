@@ -17,7 +17,7 @@ metas:
   "twitter:label1": Author
   "twitter:data1": "=site.author"
   image: /assets/logo/logo_horiz_darkblue_bgtransparent_web.png
-  color: "#141b1f"
+  color: "#ffbc68"
   icon: /assets/img/apple-touch-icon.png
   generator: true
   site: "=site.sitename"
