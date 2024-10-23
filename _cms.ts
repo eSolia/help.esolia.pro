@@ -81,16 +81,16 @@ cms.collection(
       // },
     },
     "draft: checkbox",
-    {
-      name: "show_toc",
-      type: "checkbox",
-      label: "Show TOC on Page",
-      description: "Checked causes the table of contents to show for the page",
-      attributes: {
-        required: false,
-        value: true,
-      },
-    },
+    // {
+    //   name: "show_toc",
+    //   type: "checkbox",
+    //   label: "Show TOC on Page",
+    //   description: "Checked causes the table of contents to show for the page",
+    //   attributes: {
+    //     required: false,
+    //     value: true,
+    //   },
+    // },
     {
       name: "order",
       type: "number",

@@ -11,7 +11,6 @@ templateEngine:
 image: ''
 tags: []
 draft: false
-show_toc: false
 ---
 # Section Index
 <ul class="menu">
