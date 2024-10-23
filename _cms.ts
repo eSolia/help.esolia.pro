@@ -76,6 +76,8 @@ cms.collection(
     {
       name: "lang",
       type: "select",
+      label: "Language",
+      description: "Select the language of the page content",
       attributes: {
         required: true,
       },
