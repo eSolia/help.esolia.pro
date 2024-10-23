@@ -72,7 +72,6 @@ cms.collection(
     "tags: list",
     "draft: checkbox",
     "show_toc: checkbox",
-    "order: number",
     {
       name: "order",
       type: "number",
