@@ -72,11 +72,8 @@ cms.collection(
     {
       name: "tags",
       type: "list",
-      init(field, { data }) {
-        const site = data.site;
-        const allTags = site.search.values("tags");
-        field.options = allTags;
-      },
+      label: "Tags",
+      description: "Tags to categorize the page",
     },
     "draft: checkbox",
     "show_toc: checkbox",
