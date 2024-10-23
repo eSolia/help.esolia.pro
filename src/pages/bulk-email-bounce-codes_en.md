@@ -11,8 +11,10 @@ id: bulkbouncecodes
 tags:
   - Bulk Email
   - Error Codes
+image: ''
+draft: false
+show_toc: false
 ---
-
 The following error codes are from the bulk email systems we use to send newsletters. 
 
 ### Postmark App Bounce Error Codes
