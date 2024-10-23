@@ -10,7 +10,7 @@ import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
 import filterPages from "lume/plugins/filter_pages.ts";
 import sri from "lume/plugins/sri.ts";
-import autoTrim from "vento/plugins/auto_trim.ts";
+// import autoTrim from "vento/plugins/auto_trim.ts";
 import terser from "lume/plugins/terser.ts";
 
 const site = lume({
@@ -33,7 +33,7 @@ site.use(filterPages({
   fn: (page) => page.data.ignored !== true,
 }))
 site.use(sri());
-env.use(autoTrim());
+// env.use(autoTrim());
 site.use(terser());
 
 site.copy("assets");
