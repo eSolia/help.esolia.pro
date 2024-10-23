@@ -12,7 +12,7 @@ import filterPages from "lume/plugins/filter_pages.ts";
 import sri from "lume/plugins/sri.ts";
 // import autoTrim from "vento/plugins/auto_trim.ts";
 import terser from "lume/plugins/terser.ts";
-import lightningCss from "lume/plugins/lightning_css.ts";
+import lightningCss from "lume/plugins/lightningcss.ts";
 
 const site = lume({
   src: "./src",
