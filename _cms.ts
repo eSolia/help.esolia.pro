@@ -38,10 +38,10 @@ cms.storage(
 // Configure an upload folder
 cms.upload("media", "gh:src/assets/img");
 
-// PROdb collection
+// Pages collection
 cms.collection(
-  "prodb",
-  "gh:/src/prodb/*.md",
+  "pages",
+  "gh:/src/pages/*.md",
   [
     "title: text",
     {
@@ -67,31 +67,31 @@ cms.collection(
 );
 
 // Security collection
-cms.collection(
-  "security",
-  "gh:/src/security/*.md",
-  [
-    "title: text",
-    {
-      name: "summary",
-      type: "textarea",
-      attributes: {
-        required: true,
-      },
-    },
-    {
-      name: "image",
-      type: "file",
-      uploads: "media",
-      attributes: {
-        accept: "image/*",
-      },
-    },
-    "tags: list",
-    "draft: checkbox",
-    "show_toc: checkbox",
-    "content: markdown",
-  ],
-);
+// cms.collection(
+//   "security",
+//   "gh:/src/security/*.md",
+//   [
+//     "title: text",
+//     {
+//       name: "summary",
+//       type: "textarea",
+//       attributes: {
+//         required: true,
+//       },
+//     },
+//     {
+//       name: "image",
+//       type: "file",
+//       uploads: "media",
+//       attributes: {
+//         accept: "image/*",
+//       },
+//     },
+//     "tags: list",
+//     "draft: checkbox",
+//     "show_toc: checkbox",
+//     "content: markdown",
+//   ],
+// );
 
 export default cms;
