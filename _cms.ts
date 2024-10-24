@@ -75,7 +75,7 @@ cms.collection(
       label: "Tags",
       description: "Tags to categorize the page",
       init(field) {
-        field.options = ["tag1", "tag2", "tag3"];
+        field.options = ["PROdb", "M365", "Security", "Email", "Disaster", "セキュリティ", "メール", "災害"];
       },
       // init(field: any, { data }) {
       //   const site = data.site;
