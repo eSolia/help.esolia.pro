@@ -34,4 +34,4 @@ Using Fortinet Fortigate as an example, it is good practice to enable DPI "Deep 
 See [this guide](https://docs.fortinet.com/document/fortigate/7.4.5/administration-guide/122078) for information from Fortinet.
 
 > [!TIP]
-> [Deep packet inspection]([Link](https://en.wikipedia.org/wiki/Deep_packet_inspection)) (DPI) may go by different names depending on the firewall brand, such as "complete packet inspection", "information extraction" or "packet sniffing". No matter what it is called, the technique allows inspection of data to filter malware and other unwanted traffic.
+> [Deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) (DPI) may go by different names depending on the firewall brand, such as "complete packet inspection", "information extraction" or "packet sniffing". No matter what it is called, the technique allows inspection of data to filter malware and other unwanted traffic.
