@@ -31,5 +31,5 @@ In the [security.microsoft.com/antispam](https://security.microsoft.com/antispam
 > [!IMPORTANT]
 > Microsoft _changes URLs and feature names_ but often functionality remains the same, so you need to stay on top of that. 
 
-<img src="/assets/img/figure-m365-antispam_en.png" width="100%" alt="Fig: M365 antispam setting screen">
+<img class="zoom" src="/assets/img/figure-m365-antispam_en.png" width="100%" alt="Fig: M365 antispam setting screen">
 

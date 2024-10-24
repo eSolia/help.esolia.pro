@@ -83,6 +83,6 @@ PROdbの「セッションタイムアウト」は「スライディング」で
 > システム側では強制的にセッションCookieを再作成させることができません。変更後、ユーザーにサインアウトさせる必要がある。PROdb クッキーについて詳しくは[こちらのページ](/prodb/prodb-cookies)をご覧ください.
 
 
-<img src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="図: PROdb Security Controls 画面">
+<img class="zoom" src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="図: PROdb Security Controls 画面">
 
 

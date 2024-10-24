@@ -18,7 +18,7 @@ tags:
 ## A modern application emphasizing security
 The dbFLEX application architecture is as follows: 
 
-<img src="/assets/img/figure-dbflex-system-architecture.png" width="100%" alt="Figure: PROdb App Architecture">
+<img class="zoom" src="/assets/img/figure-dbflex-system-architecture.png" width="100%" alt="Figure: PROdb App Architecture">
 
 
 * dbFLEX provides a logical view of the SQL database. 

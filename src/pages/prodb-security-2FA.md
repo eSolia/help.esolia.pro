@@ -22,7 +22,7 @@ tags:
 
 二要素認証「2FA」を "Manage Users" セクションで設定します。各ユーザー毎かバルクでも設定可能です。  
 
-<img src="/assets/img/figure-prodb-enable-2fa-in-manage-users.png" width="100%" alt="図: PROdb Manage Users 画面で有効に設定する">
+<img class="zoom" src="/assets/img/figure-prodb-enable-2fa-in-manage-users.png" width="100%" alt="図: PROdb Manage Users 画面で有効に設定する">
 
 ## 利用方法
 
@@ -32,11 +32,11 @@ tags:
 2. TMC使っていなければ、メールでコードが送られてきます。コードをログイン画面に貼り付けるとログインします。"Send New Code" をクリックすると、新規でコードが送信されます。
 3. Codebook, 1Password, Google Authenticatorなどオーセンチケーターアプリご利用の場合、 ユーザー各自設定画面（右上、ユーザー名選択してからPreferences）にて、"show pairing code for authenticator apps" チェックボックスの選択すれば、オーセンチケーターアプリに貼り付けると利用可能です。 
 
-<img src="/assets/img/figure-prodb-2fa-authenticator-totp-code.png" width="100%" alt="図: PROdb 2FA TOTP Code Storage in Authenticator App">
+<img class="zoom" src="/assets/img/figure-prodb-2fa-authenticator-totp-code.png" width="100%" alt="図: PROdb 2FA TOTP Code Storage in Authenticator App">
   
-<img src="/assets/img/figure-prodb-2fa-code-entry-screen.png" width="100%" alt="図: PROdb 2FA Code Entry Screen">
+<img class="zoom" src="/assets/img/figure-prodb-2fa-code-entry-screen.png" width="100%" alt="図: PROdb 2FA Code Entry Screen">
   
-<img src="/assets/img/figure-prodb-tmc-2fa-popup-screen.png" width="100%" alt="図: PROdb TMC 2FA Popup">
+<img class="zoom" src="/assets/img/figure-prodb-tmc-2fa-popup-screen.png" width="100%" alt="図: PROdb TMC 2FA Popup">
 
 ## 通常ログイン段取り
 

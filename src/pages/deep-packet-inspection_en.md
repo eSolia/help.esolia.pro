@@ -18,7 +18,7 @@ draft: false
 
 Using Fortinet Fortigate as an example, it is good practice to enable DPI "Deep Packet Inspection" in your firewall policies. What setting DPI does is, when a user makes a connection to a site via HTTPS, the Fortigate will replace the SSL certificate of the site with its own, then inspect the traffic that is flowing through, for malware or other problems. Google estimates 90% of traffic is encrypted, so this is important to get full protection. This figure shows that the firewall is replacing the SSL certificate, allowing DPI to occur.
 
-<img src="/assets/img/fortigate-ssl-deep-packet-inspection.png" width="100%" alt="Figure: Fortigate Deep Packet Inspection">
+<img class="zoom" src="/assets/img/fortigate-ssl-deep-packet-inspection.png" width="100%" alt="Figure: Fortigate Deep Packet Inspection">
 
 ## Primary Benefits
 

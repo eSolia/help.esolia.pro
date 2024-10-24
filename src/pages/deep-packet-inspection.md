@@ -17,7 +17,7 @@ draft: false
 # SSL ディープ・パケット・インスペクション
 Fortinet Fortigate を例に挙げると、ファイアウォール ポリシーで DPI「ディープ ・パケット ・インスペクション」を有効にすることをお勧めします。これにより、ユーザーが HTTPS 経由でサイトに接続すると、Fortigate はサイトの SSL 証明書を独自の証明書に置き換え、通過するトラフィックを検査してマルウェアやその他の問題がないかを確認します。Google はトラフィックの 90% が暗号化されていると推定しているため、完全な保護を得ることが重要です。この図は、ファイアウォールが SSL 証明書を置き換え、DPI の発生を許可していることを示しています。
 
-<img src="/assets/img/fortigate-ssl-deep-packet-inspection.png" width="100%" alt="Figure: Fortigate Deep Packet Inspection">
+<img class="zoom" src="/assets/img/fortigate-ssl-deep-packet-inspection.png" width="100%" alt="Figure: Fortigate Deep Packet Inspection">
 
 ## 主な利点
 * 暗号化された TLS トラフィックを復号化できるため、完全に検査してログに記録できるようになり、マルウェアの防止効果が向上します。

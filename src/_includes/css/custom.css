@@ -34,3 +34,17 @@ th {
   background-color: var(--cyan-7-hsl);
   color: white;
 }
+
+.zoom {
+  /* DIMENSIONS */
+  /* width: 100%; */
+  /* height: auto; */
+ 
+  /* ANIMATE ZOOM */
+  /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+} 
+ 
+/* ZOOM ON HOVER */
+.zoom:active { transform: scale(1.5); } 
+

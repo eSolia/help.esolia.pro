@@ -82,6 +82,6 @@ Therefore, when changing policy from "Never" to some setting such as "8 hours", 
 > [!CAUTION]
 > Session cookie recreation _cannot_ be automatically performed from the system side. Have users sign out and back in when changing this policy. _Read more_ about PROdb cookies [on this page](/en/prodb/prodb-cookies). 
 
-<img src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="Figure: PROdb Security Controls Screen">
+<img class="zoom" src="/assets/img/figure-prodb-security-controls-screen-2.png" width="100%" alt="Figure: PROdb Security Controls Screen">
 
 

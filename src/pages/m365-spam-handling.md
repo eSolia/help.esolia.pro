@@ -31,5 +31,5 @@ M365管理画面の [security.microsoft.com/antispam](https://security.microsoft
 > [!IMPORTANT]
 > マイクロソフトは、よく機能を保ちつつ、URLや名前を変更したりするので、**ご注意**が必要。
 
-<img src="/assets/img/figure-m365-antispam.png" width="100%" alt="図: M365迷惑メール設定画面">
+<img class="zoom" src="/assets/img/figure-m365-antispam.png" width="100%" alt="図: M365迷惑メール設定画面">
 

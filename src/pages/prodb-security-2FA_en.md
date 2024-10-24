@@ -21,7 +21,7 @@ We strongly recommend PROdb clients elect to enable 2FA for their users, whether
 
 2FA is enabled in the "Manage Users" section, either per user or in bulk, after selecting multiple users. 
 
-<img src="/assets/img/figure-prodb-enable-2fa-in-manage-users.png" width="100%" alt="Fig: PROdb Enable 2FA in Manage Users Screen">
+<img class="zoom" src="/assets/img/figure-prodb-enable-2fa-in-manage-users.png" width="100%" alt="Fig: PROdb Enable 2FA in Manage Users Screen">
 
 ## Ways of Using
 
@@ -31,11 +31,11 @@ There are three ways users can leverage two-factor authentication with PROdb:
 2. For users not using TMC, the code will be sent via email, and copy it into the 2FA prompt to log in. You can get the code by email if you click "Send New Code" in the login screen. 
 3. For users with standard Authenticator apps such as Codebook, 1Password, Google Authenticator and so on, visit the user preferences screen (upper right, click the username and select) and click "show pairing code for authenticator apps" checkbox. Copy the code and store wherever a TOTP code is stored in your authenticator app.  
 
-<img src="/assets/img/figure-prodb-2fa-authenticator-totp-code.png" width="100%" alt="Fig: PROdb 2FA TOTP Code Storage in Authenticator App">
+<img class="zoom" src="/assets/img/figure-prodb-2fa-authenticator-totp-code.png" width="100%" alt="Fig: PROdb 2FA TOTP Code Storage in Authenticator App">
   
-<img src="/assets/img/figure-prodb-2fa-code-entry-screen.png" width="100%" alt="Fig: PROdb 2FA Code Entry Screen">
+<img class="zoom" src="/assets/img/figure-prodb-2fa-code-entry-screen.png" width="100%" alt="Fig: PROdb 2FA Code Entry Screen">
   
-<img src="/assets/img/figure-prodb-tmc-2fa-popup-screen.png" width="100%" alt="Fig: PROdb TMC 2FA Popup">
+<img class="zoom" src="/assets/img/figure-prodb-tmc-2fa-popup-screen.png" width="100%" alt="Fig: PROdb TMC 2FA Popup">
 
 ## Typical Login Process
 
