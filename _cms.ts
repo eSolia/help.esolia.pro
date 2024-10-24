@@ -11,7 +11,7 @@ const cms = lumeCMS({
     description: "Edit the content of the eSolia Help site",
     url: "https://help.esolia.pro",
     body: `
-    <p>This is a bilingual site, but every page does not need a translation. Just be sure the id is the same.</p>
+    <p>This is a bilingual English and Japanese site, but every page does not require a translation. When you do have a translation pair, just be sure the id is the same for each page. You can open a page and duplicate it, as a starting point. </p>
     `,
   },
   auth: {
