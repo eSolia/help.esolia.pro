@@ -1,6 +1,6 @@
 ---
 title: PROdb 保守
-description: メンテナンス スケジュール
+description: 週次 メンテナンス スケジュール
 order: 700
 category: サービス詳細
 lang: ja
