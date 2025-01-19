@@ -5,13 +5,14 @@ import wiki from "wiki/mod.ts";
 import date from "lume/plugins/date.ts"; //
 import { enUS } from "npm:date-fns/locale/en-US";
 import { ja } from "npm:date-fns/locale/ja";
-import metas from "lume/plugins/metas.ts"; 
+import metas from "lume/plugins/metas.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
 import filterPages from "lume/plugins/filter_pages.ts";
 import sri from "lume/plugins/sri.ts";
 // import autoTrim from "vento/plugins/auto_trim.ts";
 import terser from "lume/plugins/terser.ts";
+// import purgecss from "lume/plugins/purgecss.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 
 const site = lume({
@@ -36,10 +37,12 @@ site.use(filterPages({
 site.use(sri());
 // env.use(autoTrim());
 site.use(terser());
+// site.use(purgecss());
 site.use(lightningCss());
 
 site.copy("assets");
 site.copy("menu.js");
+//site.loadAssets([".js"]);
 
 // Create zip and tree scripts
 site.script("zipsite", "zip -r _site/help_esolia_pro_site.zip _site");
