@@ -16,7 +16,7 @@ tags:
 
 Our PROdb regular standing maintenance window is:
 
-> **Weekly, every Saturday, from 15:00 JST** 
+> **Weekly, every Saturday, from ~15:00 to ~18:00 JST** 
 
 During this regular maintenance window and as a rule, maintenance work that _does not require or cause downtime_ is performed, such as minor software patches or redundant hardware swaps.  
 
