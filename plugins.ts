@@ -1,6 +1,6 @@
 // import postcss from "lume/plugins/postcss.ts"; //
 import lightningCss from "lume/plugins/lightningcss.ts"; //
-import nesting from "npm:postcss-nesting";
+// import nesting from "npm:postcss-nesting";
 import pagefind from "lume/plugins/pagefind.ts"; //
 import resolveUrls from "lume/plugins/resolve_urls.ts"; //
 import nav from "lume/plugins/nav.ts"; //
@@ -21,7 +21,7 @@ import multilanguage from "lume/plugins/multilanguage.ts"; //
 
 // import codeHighlight from "lume/plugins/code_highlight.ts";
 // import ogImages from "lume/plugins/og_images.ts"; //
-import metas from "lume/plugins/metas.ts"; 
+import metas from "lume/plugins/metas.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import attributes from "lume/plugins/attributes.ts";
 import filterPages from "lume/plugins/filter_pages.ts";
