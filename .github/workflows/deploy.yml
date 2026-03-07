@@ -1,47 +1,46 @@
 name: Deploy to Deno Deploy
 on:
-  # Triggers the workflow on push or pull request events for main or dev
-  # Deno Deploy project is linked to one branch, usually main, but will
-  # generate a non-production deploy URL for branches other than main
   push:
-    branches: [ main, dev ] 
+    branches: [main, dev]
   pull_request:
-    branches: [ main, dev ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: [main, dev]
   workflow_dispatch:
   schedule:
-    # At 17:10 GMT every day, middle of the night in Japan.
     - cron: '10 17 * * *'
+
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
+      id-token: write
+      contents: read
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          persist-credentials: false
 
       - name: Setup Deno environment
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb # v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Build site
         run: deno task build
 
       - name: Check folder contents
         run: |
-           echo "====CHECK CONTENT==="
-           pwd
-           tree
-           tree /home/runner/work/help.esolia.pro
+          echo '====CHECK CONTENT==='
+          pwd
+          tree
+          tree /home/runner/work/help.esolia.pro
+
       - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
+        uses: denoland/deployctl@7bded90d0d09cd99bbfb513966146315db97618b # v1
         with:
           project: help-esolia-pro
-          import-map: "./import_map.json"
+          import-map: './import_map.json'
           entrypoint: ./serve.ts
           root: ./
